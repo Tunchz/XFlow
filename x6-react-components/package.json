@@ -1,5 +1,5 @@
 {
-  "name": "@tunchz/xflow/x6-react-components",
+  "name": "@antv/x6-react-components",
   "version": "1.1.20",
   "description": "React components for building x6 editors",
   "main": "lib/index.js",
@@ -53,12 +53,12 @@
     ]
   },
   "inherits": [
-    "@tunchz/xflow/x6-package-json/cli.json",
-    "@tunchz/xflow/x6-package-json/antd.json",
-    "@tunchz/xflow/x6-package-json/react.json",
-    "@tunchz/xflow/x6-package-json/less.json",
-    "@tunchz/xflow/x6-package-json/eslint.json",
-    "@tunchz/xflow/x6-package-json/rollup.json"
+    "@antv/x6-package-json/cli.json",
+    "@antv/x6-package-json/antd.json",
+    "@antv/x6-package-json/react.json",
+    "@antv/x6-package-json/less.json",
+    "@antv/x6-package-json/eslint.json",
+    "@antv/x6-package-json/rollup.json"
   ],
   "peerDependencies": {
     "antd": ">=4.4.2 || >=5.0.0-beta.0",

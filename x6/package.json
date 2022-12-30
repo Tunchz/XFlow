@@ -1,5 +1,5 @@
 {
-  "name": "@tunchz/xflow/x6",
+  "name": "@antv/x6",
   "version": "1.34.6",
   "description": "JavaScript diagramming library that uses SVG and HTML for rendering.",
   "main": "lib/index.js",
@@ -58,11 +58,11 @@
     ]
   },
   "inherits": [
-    "@tunchz/xflow/x6-package-json/cli.json",
-    "@tunchz/xflow/x6-package-json/less.json",
-    "@tunchz/xflow/x6-package-json/karma.json",
-    "@tunchz/xflow/x6-package-json/eslint.json",
-    "@tunchz/xflow/x6-package-json/rollup.json"
+    "@antv/x6-package-json/cli.json",
+    "@antv/x6-package-json/less.json",
+    "@antv/x6-package-json/karma.json",
+    "@antv/x6-package-json/eslint.json",
+    "@antv/x6-package-json/rollup.json"
   ],
   "dependencies": {
     "csstype": "^3.0.3",

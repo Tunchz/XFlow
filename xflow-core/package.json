@@ -1,6 +1,6 @@
 {
   "private": false,
-  "name": "@tunchz/xflow/xflow-core",
+  "name": "@antv/xflow-core",
   "version": "1.0.52",
   "license": "MIT",
   "main": "lib/index.js",
@@ -24,7 +24,7 @@
     "registry": "https://registry.npmjs.org"
   },
   "dependencies": {
-    "@tunchz/xflow/xflow-hook": "1.0.52",
+    "@antv/xflow-hook": "1.0.52",
     "classnames": "^2.3.1",
     "immer": "^9.0.7",
     "mana-common": "^0.3.1",
@@ -33,10 +33,10 @@
     "rxjs": "^6.6.7"
   },
   "devDependencies": {
-    "@tunchz/xflow/layout": "^0.1.22",
-    "@tunchz/xflow/x6": "^1.30.1",
-    "@tunchz/xflow/x6-react-components": "^1.1.15",
-    "@tunchz/xflow/x6-react-shape": "^1.5.2",
+    "@antv/layout": "^0.1.22",
+    "@antv/x6": "^1.30.1",
+    "@antv/x6-react-components": "^1.1.15",
+    "@antv/x6-react-shape": "^1.5.2",
     "@babel/core": "^7.16.5",
     "@babel/plugin-proposal-decorators": "^7.16.5",
     "@babel/preset-env": "^7.16.5",
@@ -70,9 +70,9 @@
   },
   "peerDependencies": {
     "@ant-design/icons": "^4.6.0",
-    "@tunchz/xflow/x6": "^1.30.1",
-    "@tunchz/xflow/x6-react-components": "^1.1.15",
-    "@tunchz/xflow/x6-react-shape": "^1.2.5",
+    "@antv/x6": "^1.30.1",
+    "@antv/x6-react-components": "^1.1.15",
+    "@antv/x6-react-shape": "^1.2.5",
     "antd": "^4.6.3",
     "lodash": "^4.17.20",
     "react": "^16.8.0  || ^17.0.0",
@@ -115,5 +115,5 @@
     "test": "jest src --verbose true",
     "test:coverage": "jest src --coverage"
   },
-  "readme": "# @tunchz/xflow/xflow-core\n\n## Getting Started\n\nInstall dependencies\n\n```bash\n$ npm i\n```\n\nwatch file change\n\n```bash\n$ npm start\n```\n\nrelease version\n\n```bash\n$ npm run release\n```\n"
+  "readme": "# @antv/xflow-core\n\n## Getting Started\n\nInstall dependencies\n\n```bash\n$ npm i\n```\n\nwatch file change\n\n```bash\n$ npm start\n```\n\nrelease version\n\n```bash\n$ npm run release\n```\n"
 }

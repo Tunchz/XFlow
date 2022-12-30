@@ -1,5 +1,5 @@
 {
-  "name": "@tunchz/xflow/layout",
+  "name": "@antv/layout",
   "version": "0.1.31",
   "description": "graph layout algorithm",
   "main": "lib/index.js",
@@ -42,14 +42,14 @@
     ]
   },
   "dependencies": {
-    "@tunchz/xflow/g-webgpu": "0.5.5",
+    "@antv/g-webgpu": "0.5.5",
     "d3-force": "^2.0.1",
     "ml-matrix": "^6.5.0",
     "@dagrejs/graphlib": "2.1.4"
   },
   "devDependencies": {
-    "@tunchz/xflow/g-webgpu-compiler": "0.5.5",
-    "@tunchz/xflow/g6": "^4.0.3",
+    "@antv/g-webgpu-compiler": "0.5.5",
+    "@antv/g6": "^4.0.3",
     "@babel/core": "*",
     "@babel/polyfill": "^7.12.1",
     "@babel/preset-env": "*",
