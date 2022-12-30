@@ -154,7 +154,7 @@ export const NodePanelBody: React.FC<IBodyProps> = props => {
       <div className={`${prefixClz}-body`}>
         <Collapse defaultActiveKey={defaultActiveKey} style={{ border: 'none' }}>
           {showOfficial && (
-            <Panel header="通用节点" key="official" style={{ border: 'none' }}>
+            <Panel header="General Node" key="official" style={{ border: 'none' }}>
               {!state.keyword && (
                 <div className={`${prefixClz}-official`}>{renderTree(officialNode)}</div>
               )}

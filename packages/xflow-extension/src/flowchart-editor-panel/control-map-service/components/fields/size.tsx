@@ -9,7 +9,7 @@ interface IProps {
 }
 
 const Size: React.FC<IProps> = props => {
-  const { width, height, label = '尺寸', onChange } = props
+  const { width, height, label = 'size', onChange } = props
 
   return (
     <div className="group">

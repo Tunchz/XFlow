@@ -29,8 +29,10 @@ const ColorPicker: React.FC<IProps> = props => {
         <div className={`${PREFIX}-popover`}>
           <SketchPicker
             onChange={color => {
-              colorRef.current = color.hex
+              // colorRef.current = color.hex
+              colorRef.current = `${color.hex||'FFFFFF'}${Math.floor((color.rgb?.a||0) * 255).toString(16).padStart(2, 0)}`
             }}
+            color={colorRef.current}
           />
           <div className="foolter">
             <Button

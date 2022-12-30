@@ -46,7 +46,7 @@ export namespace CANVAS_SCALE_TOOLBAR_CONFIG {
         items: [
           {
             id: CANVAS_SCALE_TOOLBAR_CONFIG.ZOOM_IN,
-            tooltip: '放大',
+            tooltip: 'zoom in',
             iconName: 'ZoomInOutlined',
             onClick: ({ commandService }) => {
               commandService.executeCommand<NsGraphCmd.GraphZoom.IArgs>(
@@ -60,7 +60,7 @@ export namespace CANVAS_SCALE_TOOLBAR_CONFIG {
           },
           {
             id: CANVAS_SCALE_TOOLBAR_CONFIG.ZOOM_OUT,
-            tooltip: '缩小',
+            tooltip: 'zoom out',
             iconName: 'ZoomOutOutlined',
             onClick: ({ commandService }) => {
               commandService.executeCommand<NsGraphCmd.GraphZoom.IArgs>(
@@ -75,7 +75,7 @@ export namespace CANVAS_SCALE_TOOLBAR_CONFIG {
           {
             id: CANVAS_SCALE_TOOLBAR_CONFIG.SCALE_TO_ONE,
             iconName: 'OneToOneOutlined',
-            tooltip: '缩放到1:1',
+            tooltip: 'scale 1:1',
             isEnabled: zoomFactor !== 1,
             onClick: ({ commandService }) => {
               commandService.executeCommand<NsGraphCmd.GraphZoom.IArgs>(
@@ -89,7 +89,7 @@ export namespace CANVAS_SCALE_TOOLBAR_CONFIG {
           },
           {
             id: CANVAS_SCALE_TOOLBAR_CONFIG.SCALE_TO_FIT,
-            tooltip: '缩放到适应屏幕',
+            tooltip: 'scale to fit',
             iconName: 'CompressOutlined',
             onClick: ({ commandService }) => {
               commandService.executeCommand<NsGraphCmd.GraphZoom.IArgs>(
@@ -103,7 +103,7 @@ export namespace CANVAS_SCALE_TOOLBAR_CONFIG {
           },
           {
             id: CANVAS_SCALE_TOOLBAR_CONFIG.FULLSCREEN,
-            tooltip: !fullscreen ? '全屏' : '退出全屏',
+            tooltip: !fullscreen ? 'fullscreen' : 'exit fullscreen',
             iconName: !fullscreen ? 'FullscreenOutlined' : 'FullscreenExitOutlined',
             onClick: ({ commandService }) => {
               commandService.executeCommand<NsGraphCmd.GraphFullscreen.IArgs>(

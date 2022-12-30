@@ -7,16 +7,16 @@ export const defaultFormSchemaService: NsJsonSchemaForm.IFormSchemaService = asy
   const groupSchema: NsJsonSchemaForm.ISchema = {
     tabs: [
       {
-        name: '设置',
+        name: 'Setup',
         groups: [
           {
             name: 'groupName',
             controls: [
               {
-                label: '分组名',
+                label: 'Group',
                 name: 'group-service',
                 shape: 'group-service',
-                placeholder: '分组名称',
+                placeholder: 'Group Name',
               },
             ],
           },
@@ -28,16 +28,16 @@ export const defaultFormSchemaService: NsJsonSchemaForm.IFormSchemaService = asy
   const nodeSchema: NsJsonSchemaForm.ISchema = {
     tabs: [
       {
-        name: '设置',
+        name: 'Setup',
         groups: [
           {
             name: 'groupName',
             controls: [
               {
-                label: '节点名',
+                label: 'Node',
                 name: 'node-service',
                 shape: 'node-service',
-                placeholder: '节点名称',
+                placeholder: 'Node Label',
               },
             ],
           },
@@ -48,16 +48,16 @@ export const defaultFormSchemaService: NsJsonSchemaForm.IFormSchemaService = asy
   const edgeSchema: NsJsonSchemaForm.ISchema = {
     tabs: [
       {
-        name: '设置',
+        name: 'Setup',
         groups: [
           {
             name: 'groupName',
             controls: [
               {
-                label: '边',
+                label: 'Edge',
                 name: 'edge-service',
                 shape: 'edge-service',
-                placeholder: '边名称',
+                placeholder: 'Edge Label',
               },
             ],
           },
@@ -80,7 +80,7 @@ export const defaultFormSchemaService: NsJsonSchemaForm.IFormSchemaService = asy
   return {
     tabs: [
       {
-        name: '设置',
+        name: 'Setup',
         groups: [
           {
             name: 'groupName',

@@ -23,7 +23,7 @@ export const Item = ({ value, onChangeItem, addonBefore }) => (
 )
 
 const Position: React.FC<IProps> = props => {
-  const { label = '位置', x, y, onChange } = props
+  const { label = 'position', x, y, onChange } = props
 
   return (
     <div className="group">

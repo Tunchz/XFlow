@@ -9,7 +9,7 @@ interface IProps {
 }
 
 const InputFiled: React.FC<IProps> = props => {
-  const { label = '标签', value, onChange } = props
+  const { label = 'label', value, onChange } = props
   return (
     <div className="group">
       <label>{label}</label>

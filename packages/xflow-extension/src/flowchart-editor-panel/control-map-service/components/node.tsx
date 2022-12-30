@@ -43,9 +43,9 @@ const NodeComponent = props => {
   return (
     <div className={`${PREFIX}-panel-body`}>
       <div className={`${PREFIX}-panel-group`}>
-        <h5>内容</h5>
+        <h5>Node Content</h5>
         <InputFiled
-          label="标题"
+          label="Label"
           value={nodeConfig.label}
           onChange={value => {
             onNodeConfigChange('label', value)
@@ -53,7 +53,7 @@ const NodeComponent = props => {
         />
       </div>
       <div className={`${PREFIX}-panel-group`}>
-        <h5>样式</h5>
+        <h5>Style</h5>
         <Position
           x={nodeConfig.x}
           y={nodeConfig.y}
@@ -69,14 +69,14 @@ const NodeComponent = props => {
           }}
         />
         <ColorPicker
-          label="填充"
+          label="fill"
           value={nodeConfig.fill}
           onChange={(value: string) => {
             onNodeConfigChange('fill', value)
           }}
         />
         <ColorPicker
-          label="边框"
+          label="stroke"
           value={nodeConfig.stroke}
           onChange={(value: string) => {
             onNodeConfigChange('stroke', value)
@@ -84,7 +84,7 @@ const NodeComponent = props => {
         />
         <div className={`${PREFIX}-node-text-style`}>
           <InputNumberFiled
-            label="字号"
+            label="text"
             value={nodeConfig.fontSize}
             width={68}
             onChange={value => {

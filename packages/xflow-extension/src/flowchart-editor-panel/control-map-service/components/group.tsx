@@ -35,9 +35,9 @@ const GroupComponent = props => {
   return (
     <div className={`${PREFIX}-panel-body`}>
       <div className={`${PREFIX}-panel-group`}>
-        <h5>内容</h5>
+        <h5>Group Content</h5>
         <InputFiled
-          label="标题"
+          label="Label"
           value={groupConfig.label}
           onChange={value => {
             onGroupConfigChange('label', value)
@@ -45,7 +45,7 @@ const GroupComponent = props => {
         />
       </div>
       <div className={`${PREFIX}-panel-group`}>
-        <h5>样式</h5>
+        <h5>Style</h5>
         <Position
           x={groupConfig.x}
           y={groupConfig.y}
@@ -61,14 +61,14 @@ const GroupComponent = props => {
           }}
         />
         <ColorPicker
-          label="填充"
+          label="fill"
           value={groupConfig.fill}
           onChange={(value: string) => {
             onGroupConfigChange('fill', value)
           }}
         />
         <ColorPicker
-          label="边框"
+          label="strok"
           value={groupConfig.stroke}
           onChange={(value: string) => {
             onGroupConfigChange('stroke', value)
@@ -76,7 +76,7 @@ const GroupComponent = props => {
         />
         <div className={`${PREFIX}-node-text-style`}>
           <InputNumberFiled
-            label="字号"
+            label="text"
             value={groupConfig.fontSize}
             width={68}
             onChange={value => {

@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "xflow-monorepo",
+  "name": "@tunhcz/xflow",
   "version": "1.0.10",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
