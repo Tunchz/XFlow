@@ -9,10 +9,7 @@
 /pnpm-lock.yaml
 
 # production
-/dist
 /docs-dist
-es
-lib
 bak
 
 # misc
