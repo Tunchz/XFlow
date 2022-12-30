@@ -1,5 +1,5 @@
 /// <reference types="react" />
-import type { IMenuTarget, IMenuOptions, IModelService, IGraphCommandService } from '@antv/xflow-core';
+import type { IMenuTarget, IMenuOptions, IModelService, IGraphCommandService } from '@tunchz/xflow/xflow-core';
 export interface IRenderProps {
     idx: number;
     onHide: () => void;

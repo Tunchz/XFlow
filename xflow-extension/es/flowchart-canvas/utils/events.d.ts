@@ -1,4 +1,4 @@
-import type { IGraphCommandService } from '@antv/xflow-core';
+import type { IGraphCommandService } from '@tunchz/xflow/xflow-core';
 /** 节点移动时，实时更新位置信息，内置之后可去掉 */
 export declare const movedNode: (e: any, cmds: IGraphCommandService) => Promise<void>;
 /** 修改节点大小 */

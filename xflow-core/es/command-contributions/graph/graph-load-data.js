@@ -1,6 +1,6 @@
 import { __awaiter, __decorate, __metadata } from "tslib";
 import { inject, injectable, postConstruct } from 'mana-syringe';
-import { HookHub } from '@antv/xflow-hook';
+import { HookHub } from '@tunchz/xflow/xflow-hook';
 import { ICommandHandler, ICommandContextProvider } from '../../command/interface';
 import { XFlowGraphCommands } from '../constant';
 /** 从服务端获取画布数据命令 */

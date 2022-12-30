@@ -1,6 +1,6 @@
 import type { NsGraph } from '../../interface';
 import type { IContext, IArgsBase } from '../../command/interface';
-import type { HookHub } from '@antv/xflow-hook';
+import type { HookHub } from '@tunchz/xflow/xflow-hook';
 import type { IHooks } from '../../hooks/interface';
 import { ICommandHandler } from '../../command/interface';
 declare type ICommand = ICommandHandler<NsGraphSaveData.IArgs, NsGraphSaveData.IResult, NsGraphSaveData.ICmdHooks>;

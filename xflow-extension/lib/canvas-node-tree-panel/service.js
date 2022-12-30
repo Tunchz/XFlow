@@ -5,7 +5,7 @@ var tslib_1 = require("tslib");
 var react_1 = tslib_1.__importDefault(require("react"));
 var uniqBy_1 = tslib_1.__importDefault(require("lodash/uniqBy"));
 var cloneDeep_1 = tslib_1.__importDefault(require("lodash/cloneDeep"));
-var xflow_core_1 = require("@antv/xflow-core");
+var xflow_core_1 = require("@tunchz/xflow/xflow-core");
 var constants_1 = require("./constants");
 var NsNodeTreePanelModel;
 (function (NsNodeTreePanelModel) {

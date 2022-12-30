@@ -1,7 +1,7 @@
 import React from 'react';
 import classnames from 'classnames';
-import { Toolbar } from '@antv/x6-react-components';
-import { uuidv4 } from '@antv/xflow-core';
+import { Toolbar } from '@tunchz/xflow/x6-react-components';
+import { uuidv4 } from '@tunchz/xflow/xflow-core';
 import { ToolbarItem } from './toolbar-item';
 export const ToolbarGroup = props => {
     const { group, layout } = props;

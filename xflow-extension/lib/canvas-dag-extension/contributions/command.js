@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.execCmd = exports.QueryGraphStatusCommand = exports.NsGraphStatusCommand = void 0;
 var tslib_1 = require("tslib");
-var xflow_core_1 = require("@antv/xflow-core");
+var xflow_core_1 = require("@tunchz/xflow/xflow-core");
 var constants_1 = require("../constants");
 var NsGraphStatusCommand;
 (function (NsGraphStatusCommand) {

@@ -1,5 +1,5 @@
 import React from 'react';
-import { useXflowPrefixCls } from '@antv/xflow-core';
+import { useXflowPrefixCls } from '@tunchz/xflow/xflow-core';
 import { WorkspacePanel } from '../base-panel';
 import { NodePanelBody } from './panel-body';
 import { NodePanelHeader } from './panel-header';

@@ -1,8 +1,8 @@
 import React from 'react';
 import classnames from 'classnames';
-import { Toolbar } from '@antv/x6-react-components';
-import { useXFlowApp } from '@antv/xflow-core';
-import { IconStore } from '@antv/xflow-core';
+import { Toolbar } from '@tunchz/xflow/x6-react-components';
+import { useXFlowApp } from '@tunchz/xflow/xflow-core';
+import { IconStore } from '@tunchz/xflow/xflow-core';
 export const ToolbarItem = props => {
     const app = useXFlowApp();
     const { item, layout } = props;

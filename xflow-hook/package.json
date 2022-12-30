@@ -1,6 +1,6 @@
 {
   "private": false,
-  "name": "@antv/xflow-hook",
+  "name": "@tunchz/xflow/xflow-hook",
   "version": "1.0.52",
   "license": "MIT",
   "main": "lib/index.js",
@@ -70,5 +70,5 @@
     "test": "jest src --verbose true",
     "test:coverage": "jest src --coverage"
   },
-  "readme": "# @antv/xflow-hook\n\n## Getting Started\n\nInstall dependencies\n\n```bash\n$ npm i\n```\n\nwatch file change\n\n```bash\n$ npm start\n```\n\nrelease version\n\n```bash\n$ npm run release\n```\n"
+  "readme": "# @tunchz/xflow/xflow-hook\n\n## Getting Started\n\nInstall dependencies\n\n```bash\n$ npm i\n```\n\nwatch file change\n\n```bash\n$ npm start\n```\n\nrelease version\n\n```bash\n$ npm run release\n```\n"
 }

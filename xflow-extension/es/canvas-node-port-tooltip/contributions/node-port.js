@@ -1,9 +1,9 @@
 import { __awaiter, __decorate, __metadata } from "tslib";
 import classnames from 'classnames';
-import { IHookContribution, ManaSyringe } from '@antv/xflow-core';
-import { IGraphProvider } from '@antv/xflow-core';
+import { IHookContribution, ManaSyringe } from '@tunchz/xflow/xflow-core';
+import { IGraphProvider } from '@tunchz/xflow/xflow-core';
 import { ACTIVE_NODE_PORT, NsPortEvent } from '../interface';
-import { DisposableCollection, IModelContribution, Disposable } from '@antv/xflow-core';
+import { DisposableCollection, IModelContribution, Disposable } from '@tunchz/xflow/xflow-core';
 /**
  * 内置的hook contribution
  * 处理 config上的runtime的注册项

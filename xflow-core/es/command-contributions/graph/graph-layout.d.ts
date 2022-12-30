@@ -1,5 +1,5 @@
-import type { ILayout } from '@antv/layout/es/layout/types';
-import type { HookHub } from '@antv/xflow-hook';
+import type { ILayout } from '@tunchz/xflow/layout/es/layout/types';
+import type { HookHub } from '@tunchz/xflow/xflow-hook';
 import type { IHooks } from '../../hooks/interface';
 import type { NsGraph } from '../../interface';
 import type { IContext, IArgsBase } from '../../command/interface';

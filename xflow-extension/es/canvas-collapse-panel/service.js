@@ -8,7 +8,7 @@ useXFlowApp,
 // models
 MODELS, createComponentModel, 
 // commands
-XFlowModelCommands, } from '@antv/xflow-core';
+XFlowModelCommands, } from '@tunchz/xflow/xflow-core';
 import { NsCollapsePanelModel } from './interface';
 /** 方便其他组件执行Command改变Panel内部状态 */
 export const executeCollapsePanelCommand = (cmds, updateModel) => {

@@ -4,7 +4,7 @@ import { Disposable, DisposableCollection } from '../common/disposable';
 import { IFrontendApplicationContribution } from '../xflow-main/interface';
 import type { ICommandHandler, IGraphCommand, ICommandFactory, IGraphPipelineCommand, ICommandRegisterFunction } from './interface';
 import { IGraphCommandService, IGraphCommandContribution } from './interface';
-import type { IRuntimeHook } from '@antv/xflow-hook/es/interface';
+import type { IRuntimeHook } from '@tunchz/xflow/xflow-hook/es/interface';
 import 'reflect-metadata';
 export declare namespace NCommand {
     function is(arg: IGraphCommand | any): arg is IGraphCommand;
@@ -36,12 +36,12 @@ export declare class GraphCommandRegistry implements IGraphCommandService, IFron
      * 储存所有注册的command factory
      */
     protected readonly factories: Map<string, ICommandFactory<any, any, {
-        graphOptions: import("@antv/xflow-hook").HookHub<import("@antv/x6").Graph.Options, import("@antv/x6").Graph.Options>;
-        reactNodeRender: import("@antv/xflow-hook").HookHub<Map<string, import("..").NsGraph.INodeRender<any>>, Map<string, import("..").NsGraph.INodeRender<any>>>;
-        reactEdgeLabelRender: import("@antv/xflow-hook").HookHub<Map<string, import("..").NsGraph.IEdgeRender<any>>, Map<string, import("..").NsGraph.IEdgeRender<any>>>;
-        afterGraphInit: import("@antv/xflow-hook").HookHub<import("../hooks/interface").IGeneralAppService, import("../hooks/interface").IGeneralAppService>;
-        beforeGraphDestroy: import("@antv/xflow-hook").HookHub<import("../hooks/interface").IGeneralAppService, import("../hooks/interface").IGeneralAppService>;
-        x6Events: import("@antv/xflow-hook").HookHub<import("../hooks/interface").IEventCollection, import("../hooks/interface").IEventSubscription>;
+        graphOptions: import("@tunchz/xflow/xflow-hook").HookHub<import("@tunchz/xflow/x6").Graph.Options, import("@tunchz/xflow/x6").Graph.Options>;
+        reactNodeRender: import("@tunchz/xflow/xflow-hook").HookHub<Map<string, import("..").NsGraph.INodeRender<any>>, Map<string, import("..").NsGraph.INodeRender<any>>>;
+        reactEdgeLabelRender: import("@tunchz/xflow/xflow-hook").HookHub<Map<string, import("..").NsGraph.IEdgeRender<any>>, Map<string, import("..").NsGraph.IEdgeRender<any>>>;
+        afterGraphInit: import("@tunchz/xflow/xflow-hook").HookHub<import("../hooks/interface").IGeneralAppService, import("../hooks/interface").IGeneralAppService>;
+        beforeGraphDestroy: import("@tunchz/xflow/xflow-hook").HookHub<import("../hooks/interface").IGeneralAppService, import("../hooks/interface").IGeneralAppService>;
+        x6Events: import("@tunchz/xflow/xflow-hook").HookHub<import("../hooks/interface").IEventCollection, import("../hooks/interface").IEventSubscription>;
     }>>;
     /**
      * 储存所有注册的command handler disposables
@@ -66,30 +66,30 @@ export declare class GraphCommandRegistry implements IGraphCommandService, IFron
     constructor(contributionProvider: Contribution.Provider<IGraphCommandContribution>);
     onStart(): void;
     executeCommandPipeline(cmdOptions: IGraphPipelineCommand[]): Promise<ICommandHandler<any, any, {
-        graphOptions: import("@antv/xflow-hook").HookHub<import("@antv/x6").Graph.Options, import("@antv/x6").Graph.Options>;
-        reactNodeRender: import("@antv/xflow-hook").HookHub<Map<string, import("..").NsGraph.INodeRender<any>>, Map<string, import("..").NsGraph.INodeRender<any>>>;
-        reactEdgeLabelRender: import("@antv/xflow-hook").HookHub<Map<string, import("..").NsGraph.IEdgeRender<any>>, Map<string, import("..").NsGraph.IEdgeRender<any>>>;
-        afterGraphInit: import("@antv/xflow-hook").HookHub<import("../hooks/interface").IGeneralAppService, import("../hooks/interface").IGeneralAppService>;
-        beforeGraphDestroy: import("@antv/xflow-hook").HookHub<import("../hooks/interface").IGeneralAppService, import("../hooks/interface").IGeneralAppService>;
-        x6Events: import("@antv/xflow-hook").HookHub<import("../hooks/interface").IEventCollection, import("../hooks/interface").IEventSubscription>;
+        graphOptions: import("@tunchz/xflow/xflow-hook").HookHub<import("@tunchz/xflow/x6").Graph.Options, import("@tunchz/xflow/x6").Graph.Options>;
+        reactNodeRender: import("@tunchz/xflow/xflow-hook").HookHub<Map<string, import("..").NsGraph.INodeRender<any>>, Map<string, import("..").NsGraph.INodeRender<any>>>;
+        reactEdgeLabelRender: import("@tunchz/xflow/xflow-hook").HookHub<Map<string, import("..").NsGraph.IEdgeRender<any>>, Map<string, import("..").NsGraph.IEdgeRender<any>>>;
+        afterGraphInit: import("@tunchz/xflow/xflow-hook").HookHub<import("../hooks/interface").IGeneralAppService, import("../hooks/interface").IGeneralAppService>;
+        beforeGraphDestroy: import("@tunchz/xflow/xflow-hook").HookHub<import("../hooks/interface").IGeneralAppService, import("../hooks/interface").IGeneralAppService>;
+        x6Events: import("@tunchz/xflow/xflow-hook").HookHub<import("../hooks/interface").IEventCollection, import("../hooks/interface").IEventSubscription>;
     }>>;
     /** 执行 Command：会在undo stack中push cmd */
     executeCommand<Args = any, Result = any>(commandId: string, cmdArgs: Args, hook?: IRuntimeHook<Args, Result>): Promise<ICommandHandler<Args, Result, {
-        graphOptions: import("@antv/xflow-hook").HookHub<import("@antv/x6").Graph.Options, import("@antv/x6").Graph.Options>;
-        reactNodeRender: import("@antv/xflow-hook").HookHub<Map<string, import("..").NsGraph.INodeRender<any>>, Map<string, import("..").NsGraph.INodeRender<any>>>;
-        reactEdgeLabelRender: import("@antv/xflow-hook").HookHub<Map<string, import("..").NsGraph.IEdgeRender<any>>, Map<string, import("..").NsGraph.IEdgeRender<any>>>;
-        afterGraphInit: import("@antv/xflow-hook").HookHub<import("../hooks/interface").IGeneralAppService, import("../hooks/interface").IGeneralAppService>;
-        beforeGraphDestroy: import("@antv/xflow-hook").HookHub<import("../hooks/interface").IGeneralAppService, import("../hooks/interface").IGeneralAppService>;
-        x6Events: import("@antv/xflow-hook").HookHub<import("../hooks/interface").IEventCollection, import("../hooks/interface").IEventSubscription>;
+        graphOptions: import("@tunchz/xflow/xflow-hook").HookHub<import("@tunchz/xflow/x6").Graph.Options, import("@tunchz/xflow/x6").Graph.Options>;
+        reactNodeRender: import("@tunchz/xflow/xflow-hook").HookHub<Map<string, import("..").NsGraph.INodeRender<any>>, Map<string, import("..").NsGraph.INodeRender<any>>>;
+        reactEdgeLabelRender: import("@tunchz/xflow/xflow-hook").HookHub<Map<string, import("..").NsGraph.IEdgeRender<any>>, Map<string, import("..").NsGraph.IEdgeRender<any>>>;
+        afterGraphInit: import("@tunchz/xflow/xflow-hook").HookHub<import("../hooks/interface").IGeneralAppService, import("../hooks/interface").IGeneralAppService>;
+        beforeGraphDestroy: import("@tunchz/xflow/xflow-hook").HookHub<import("../hooks/interface").IGeneralAppService, import("../hooks/interface").IGeneralAppService>;
+        x6Events: import("@tunchz/xflow/xflow-hook").HookHub<import("../hooks/interface").IEventCollection, import("../hooks/interface").IEventSubscription>;
     }>>;
     /** 执行 unod Command：不会在undo stack中push新的command记录 */
     executeUndoCommand<T = any>(commandId: string, cmdArgs: T, hook?: IRuntimeHook<T, any>): Promise<ICommandHandler<any, any, {
-        graphOptions: import("@antv/xflow-hook").HookHub<import("@antv/x6").Graph.Options, import("@antv/x6").Graph.Options>;
-        reactNodeRender: import("@antv/xflow-hook").HookHub<Map<string, import("..").NsGraph.INodeRender<any>>, Map<string, import("..").NsGraph.INodeRender<any>>>;
-        reactEdgeLabelRender: import("@antv/xflow-hook").HookHub<Map<string, import("..").NsGraph.IEdgeRender<any>>, Map<string, import("..").NsGraph.IEdgeRender<any>>>;
-        afterGraphInit: import("@antv/xflow-hook").HookHub<import("../hooks/interface").IGeneralAppService, import("../hooks/interface").IGeneralAppService>;
-        beforeGraphDestroy: import("@antv/xflow-hook").HookHub<import("../hooks/interface").IGeneralAppService, import("../hooks/interface").IGeneralAppService>;
-        x6Events: import("@antv/xflow-hook").HookHub<import("../hooks/interface").IEventCollection, import("../hooks/interface").IEventSubscription>;
+        graphOptions: import("@tunchz/xflow/xflow-hook").HookHub<import("@tunchz/xflow/x6").Graph.Options, import("@tunchz/xflow/x6").Graph.Options>;
+        reactNodeRender: import("@tunchz/xflow/xflow-hook").HookHub<Map<string, import("..").NsGraph.INodeRender<any>>, Map<string, import("..").NsGraph.INodeRender<any>>>;
+        reactEdgeLabelRender: import("@tunchz/xflow/xflow-hook").HookHub<Map<string, import("..").NsGraph.IEdgeRender<any>>, Map<string, import("..").NsGraph.IEdgeRender<any>>>;
+        afterGraphInit: import("@tunchz/xflow/xflow-hook").HookHub<import("../hooks/interface").IGeneralAppService, import("../hooks/interface").IGeneralAppService>;
+        beforeGraphDestroy: import("@tunchz/xflow/xflow-hook").HookHub<import("../hooks/interface").IGeneralAppService, import("../hooks/interface").IGeneralAppService>;
+        x6Events: import("@tunchz/xflow/xflow-hook").HookHub<import("../hooks/interface").IEventCollection, import("../hooks/interface").IEventSubscription>;
     }>>;
     /**
      * Execute the active handler for the given command and arguments.
@@ -97,12 +97,12 @@ export declare class GraphCommandRegistry implements IGraphCommandService, IFron
      * Reject if a command cannot be executed.
      */
     createCommand<T = any>(commandId: string, cmdArgs: T, hook?: IRuntimeHook<T, any>): Promise<ICommandHandler<any, any, {
-        graphOptions: import("@antv/xflow-hook").HookHub<import("@antv/x6").Graph.Options, import("@antv/x6").Graph.Options>;
-        reactNodeRender: import("@antv/xflow-hook").HookHub<Map<string, import("..").NsGraph.INodeRender<any>>, Map<string, import("..").NsGraph.INodeRender<any>>>;
-        reactEdgeLabelRender: import("@antv/xflow-hook").HookHub<Map<string, import("..").NsGraph.IEdgeRender<any>>, Map<string, import("..").NsGraph.IEdgeRender<any>>>;
-        afterGraphInit: import("@antv/xflow-hook").HookHub<import("../hooks/interface").IGeneralAppService, import("../hooks/interface").IGeneralAppService>;
-        beforeGraphDestroy: import("@antv/xflow-hook").HookHub<import("../hooks/interface").IGeneralAppService, import("../hooks/interface").IGeneralAppService>;
-        x6Events: import("@antv/xflow-hook").HookHub<import("../hooks/interface").IEventCollection, import("../hooks/interface").IEventSubscription>;
+        graphOptions: import("@tunchz/xflow/xflow-hook").HookHub<import("@tunchz/xflow/x6").Graph.Options, import("@tunchz/xflow/x6").Graph.Options>;
+        reactNodeRender: import("@tunchz/xflow/xflow-hook").HookHub<Map<string, import("..").NsGraph.INodeRender<any>>, Map<string, import("..").NsGraph.INodeRender<any>>>;
+        reactEdgeLabelRender: import("@tunchz/xflow/xflow-hook").HookHub<Map<string, import("..").NsGraph.IEdgeRender<any>>, Map<string, import("..").NsGraph.IEdgeRender<any>>>;
+        afterGraphInit: import("@tunchz/xflow/xflow-hook").HookHub<import("../hooks/interface").IGeneralAppService, import("../hooks/interface").IGeneralAppService>;
+        beforeGraphDestroy: import("@tunchz/xflow/xflow-hook").HookHub<import("../hooks/interface").IGeneralAppService, import("../hooks/interface").IGeneralAppService>;
+        x6Events: import("@tunchz/xflow/xflow-hook").HookHub<import("../hooks/interface").IEventCollection, import("../hooks/interface").IEventSubscription>;
     }>>;
     /**
      * 执行undo stack中最后一条Command
@@ -167,11 +167,11 @@ export declare class GraphCommandRegistry implements IGraphCommandService, IFron
      * or the command is not registered, returns an empty array.
      */
     getAllFactories(): [string, ICommandFactory<any, any, {
-        graphOptions: import("@antv/xflow-hook").HookHub<import("@antv/x6").Graph.Options, import("@antv/x6").Graph.Options>;
-        reactNodeRender: import("@antv/xflow-hook").HookHub<Map<string, import("..").NsGraph.INodeRender<any>>, Map<string, import("..").NsGraph.INodeRender<any>>>;
-        reactEdgeLabelRender: import("@antv/xflow-hook").HookHub<Map<string, import("..").NsGraph.IEdgeRender<any>>, Map<string, import("..").NsGraph.IEdgeRender<any>>>;
-        afterGraphInit: import("@antv/xflow-hook").HookHub<import("../hooks/interface").IGeneralAppService, import("../hooks/interface").IGeneralAppService>;
-        beforeGraphDestroy: import("@antv/xflow-hook").HookHub<import("../hooks/interface").IGeneralAppService, import("../hooks/interface").IGeneralAppService>;
-        x6Events: import("@antv/xflow-hook").HookHub<import("../hooks/interface").IEventCollection, import("../hooks/interface").IEventSubscription>;
+        graphOptions: import("@tunchz/xflow/xflow-hook").HookHub<import("@tunchz/xflow/x6").Graph.Options, import("@tunchz/xflow/x6").Graph.Options>;
+        reactNodeRender: import("@tunchz/xflow/xflow-hook").HookHub<Map<string, import("..").NsGraph.INodeRender<any>>, Map<string, import("..").NsGraph.INodeRender<any>>>;
+        reactEdgeLabelRender: import("@tunchz/xflow/xflow-hook").HookHub<Map<string, import("..").NsGraph.IEdgeRender<any>>, Map<string, import("..").NsGraph.IEdgeRender<any>>>;
+        afterGraphInit: import("@tunchz/xflow/xflow-hook").HookHub<import("../hooks/interface").IGeneralAppService, import("../hooks/interface").IGeneralAppService>;
+        beforeGraphDestroy: import("@tunchz/xflow/xflow-hook").HookHub<import("../hooks/interface").IGeneralAppService, import("../hooks/interface").IGeneralAppService>;
+        x6Events: import("@tunchz/xflow/xflow-hook").HookHub<import("../hooks/interface").IEventCollection, import("../hooks/interface").IEventSubscription>;
     }>][];
 }

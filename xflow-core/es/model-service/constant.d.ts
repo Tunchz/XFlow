@@ -1,4 +1,4 @@
-import type { Node, Edge, CellView, Cell } from '@antv/x6';
+import type { Node, Edge, CellView, Cell } from '@tunchz/xflow/x6';
 import type { NsGraph } from '../interface';
 import type { Token } from '../common/types';
 import type { IModelService } from './interface';

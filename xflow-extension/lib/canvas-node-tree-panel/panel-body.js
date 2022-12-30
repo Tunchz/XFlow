@@ -5,8 +5,8 @@ var tslib_1 = require("tslib");
 var react_1 = tslib_1.__importStar(require("react"));
 var antd_1 = require("antd");
 var icons_1 = require("@ant-design/icons");
-var x6_1 = require("@antv/x6");
-var xflow_core_1 = require("@antv/xflow-core");
+var x6_1 = require("@tunchz/xflow/x6");
+var xflow_core_1 = require("@tunchz/xflow/xflow-core");
 var node_1 = require("../canvas-dag-extension/x6-extension/node");
 var DirectoryTree = antd_1.Tree.DirectoryTree, TreeNode = antd_1.Tree.TreeNode;
 var FolderIcon = function (_a) {

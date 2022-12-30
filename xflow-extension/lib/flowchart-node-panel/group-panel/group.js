@@ -4,7 +4,7 @@ exports.GroupNode = void 0;
 var tslib_1 = require("tslib");
 var react_1 = tslib_1.__importDefault(require("react"));
 var icons_1 = require("@ant-design/icons");
-var xflow_core_1 = require("@antv/xflow-core");
+var xflow_core_1 = require("@tunchz/xflow/xflow-core");
 var GroupNode = function (props) {
     var cell = props.cell, _a = props.data, label = _a.label, stroke = _a.stroke, fill = _a.fill, fontSize = _a.fontSize, fontFill = _a.fontFill, _b = _a.width, width = _b === void 0 ? 200 : _b, _c = _a.isCollapsed, isCollapsed = _c === void 0 ? false : _c;
     var app = (0, xflow_core_1.useXFlowApp)();

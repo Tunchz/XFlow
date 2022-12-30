@@ -1,7 +1,7 @@
 import { __awaiter } from "tslib";
 import React from 'react';
-import { Dropdown } from '@antv/x6-react-components';
-import { useXFlowApp, useModelAsync } from '@antv/xflow-core';
+import { Dropdown } from '@tunchz/xflow/x6-react-components';
+import { useXFlowApp, useModelAsync } from '@tunchz/xflow/xflow-core';
 import { CONTEXT_MENU_MODEL } from '../interface';
 import { XFlowMenu } from './menu';
 const DisposeHelper = ({ toDispose }) => {

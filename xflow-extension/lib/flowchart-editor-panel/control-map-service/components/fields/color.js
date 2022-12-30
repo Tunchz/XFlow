@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var tslib_1 = require("tslib");
 var react_1 = tslib_1.__importStar(require("react"));
 var react_dom_1 = require("react-dom");
-var xflow_core_1 = require("@antv/xflow-core");
+var xflow_core_1 = require("@tunchz/xflow/xflow-core");
 var antd_1 = require("antd");
 var react_color_1 = require("react-color");
 var constants_1 = require("../constants");

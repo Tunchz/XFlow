@@ -1,5 +1,5 @@
 import React from 'react';
-import { useXFlowApp } from '@antv/xflow-core';
+import { useXFlowApp } from '@tunchz/xflow/xflow-core';
 import { ToolbarConfig } from './config';
 import { XFlowToolbar } from './render-components';
 export const CanvasToolbar = props => {

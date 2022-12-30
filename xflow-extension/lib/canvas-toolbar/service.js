@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.useToolbarModel = void 0;
 var tslib_1 = require("tslib");
-var xflow_core_1 = require("@antv/xflow-core");
+var xflow_core_1 = require("@tunchz/xflow/xflow-core");
 var react_1 = tslib_1.__importDefault(require("react"));
 var useToolbarModel = function (props) {
     var config = props.config;

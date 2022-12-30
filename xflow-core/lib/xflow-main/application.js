@@ -6,7 +6,7 @@ var tslib_1 = require("tslib");
 /* eslint-disable no-await-in-loop */
 /* eslint-disable max-classes-per-file */
 var mana_syringe_1 = require("mana-syringe");
-var x6_1 = require("@antv/x6");
+var x6_1 = require("@tunchz/xflow/x6");
 var graph_provider_1 = require("../xflow-main/graph/graph-provider");
 var interface_1 = require("../command/interface");
 var model_service_1 = require("../model-service");

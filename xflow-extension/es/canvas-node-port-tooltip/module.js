@@ -1,4 +1,4 @@
-import { ManaSyringe } from '@antv/xflow-core';
+import { ManaSyringe } from '@tunchz/xflow/xflow-core';
 import 'reflect-metadata';
 /** Application 扩展依赖 */
 import { NodePortTooltipContribution } from './contributions/node-port';

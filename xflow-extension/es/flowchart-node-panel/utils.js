@@ -1,5 +1,5 @@
 import { __awaiter } from "tslib";
-import { uuidv4 } from '@antv/xflow-core';
+import { uuidv4 } from '@tunchz/xflow/xflow-core';
 import { isNumber } from 'lodash';
 import { setProps, getProps } from '../flowchart-canvas/utils';
 import * as NodesComponent from './nodes';

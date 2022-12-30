@@ -2,10 +2,10 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.AnchorGroup = exports.XFlowNode = void 0;
 /* eslint-disable @typescript-eslint/lines-between-class-members */
-var x6_react_shape_1 = require("@antv/x6-react-shape");
-var x6_1 = require("@antv/x6");
+var x6_react_shape_1 = require("@tunchz/xflow/x6-react-shape");
+var x6_1 = require("@tunchz/xflow/x6");
 var constants_1 = require("../constants");
-var xflow_core_1 = require("@antv/xflow-core");
+var xflow_core_1 = require("@tunchz/xflow/xflow-core");
 var XFlowNode;
 exports.XFlowNode = XFlowNode;
 var AnchorGroup = xflow_core_1.NsGraph.AnchorGroup;

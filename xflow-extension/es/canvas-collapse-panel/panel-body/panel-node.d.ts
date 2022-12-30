@@ -1,5 +1,5 @@
 import type { IPanelNode } from '../interface';
-import type { IGraphCommandService, IGraphConfig, IModelService } from '@antv/xflow-core';
+import type { IGraphCommandService, IGraphConfig, IModelService } from '@tunchz/xflow/xflow-core';
 import React from 'react';
 interface INodeRenderOptions {
     graphConfig: IGraphConfig;

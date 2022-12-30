@@ -1,6 +1,6 @@
 import { __awaiter, __decorate, __metadata } from "tslib";
 import { inject, injectable, postConstruct } from 'mana-syringe';
-import { StringExt } from '@antv/x6';
+import { StringExt } from '@tunchz/xflow/x6';
 import { ICommandHandler, ICommandContextProvider } from '../../command/interface';
 import { XFlowEdgeCommands } from '../constant';
 import { Disposable } from '../../common/disposable';

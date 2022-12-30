@@ -1,4 +1,4 @@
-import type { IPosition } from '@antv/xflow-core';
+import type { IPosition } from '@tunchz/xflow/xflow-core';
 import React from 'react';
 import { CANVAS_SCALE_TOOLBAR_CONFIG } from './config';
 interface IProps {

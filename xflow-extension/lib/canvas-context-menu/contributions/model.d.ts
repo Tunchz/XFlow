@@ -1,5 +1,5 @@
-import { DisposableCollection, IModelContribution, IModelService } from '@antv/xflow-core';
-import { MODELS } from '@antv/xflow-core';
+import { DisposableCollection, IModelContribution, IModelService } from '@tunchz/xflow/xflow-core';
+import { MODELS } from '@tunchz/xflow/xflow-core';
 import { CONTEXT_MENU_MODEL } from '../interface';
 import { ContextMenuConfig } from '../config';
 /**

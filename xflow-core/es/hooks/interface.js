@@ -1,4 +1,4 @@
-import { HookHub } from '@antv/xflow-hook';
+import { HookHub } from '@tunchz/xflow/xflow-hook';
 import { Syringe } from 'mana-syringe';
 /**
  * extension 应该实现这个扩展点来注册更多的hook

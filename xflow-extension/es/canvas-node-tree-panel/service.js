@@ -10,7 +10,7 @@ useXFlowApp,
 // models
 MODELS, createComponentModel, 
 // commands
-XFlowModelCommands, } from '@antv/xflow-core';
+XFlowModelCommands, } from '@tunchz/xflow/xflow-core';
 import { TREE_ROOT_ID } from './constants';
 export var NsNodeTreePanelModel;
 (function (NsNodeTreePanelModel) {

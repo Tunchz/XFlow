@@ -1,9 +1,9 @@
-import type { HookHub } from '@antv/xflow-hook';
+import type { HookHub } from '@tunchz/xflow/xflow-hook';
 import type { NsGraph } from '../../interface';
 import type { IHooks } from '../../hooks/interface';
 import type { IArgsBase } from '../../command/interface';
 import { ICommandHandler } from '../../command/interface';
-import type { Cell } from '@antv/x6';
+import type { Cell } from '@tunchz/xflow/x6';
 declare type ICommand = ICommandHandler<NsGraphCopySelection.IArgs, NsGraphCopySelection.IResult, NsGraphCopySelection.ICmdHooks>;
 export declare namespace NsGraphCopySelection {
     /** Command: 用于注册named factory */

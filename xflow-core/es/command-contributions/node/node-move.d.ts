@@ -1,7 +1,7 @@
 import type { IArgsBase } from '../../command/interface';
 import { ICommandHandler } from '../../command/interface';
 import type { IHooks } from '../../hooks/interface';
-import { HookHub } from '@antv/xflow-hook';
+import { HookHub } from '@tunchz/xflow/xflow-hook';
 declare type ICommand = ICommandHandler<NsMoveNode.IArgs, NsMoveNode.IResult, NsMoveNode.ICmdHooks>;
 export declare namespace NsMoveNode {
     /** Command: 用于注册named factory */

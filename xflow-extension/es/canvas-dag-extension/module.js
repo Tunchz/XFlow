@@ -1,5 +1,5 @@
 import 'reflect-metadata';
-import { ManaSyringe } from '@antv/xflow-core';
+import { ManaSyringe } from '@tunchz/xflow/xflow-core';
 import { DagHooksContribution } from './contributions/dag';
 import { QueryGraphStatusCommand } from './contributions/command';
 export * from './x6-extension/edge';

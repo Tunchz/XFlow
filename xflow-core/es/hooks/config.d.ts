@@ -21,20 +21,20 @@ export declare class HookConfig implements IModuleConfig {
     getConfig: () => Promise<{
         CONFIG_TYPE: string;
         hookRegisterFn: IRegisterHookFn<{
-            graphOptions: import("@antv/xflow-hook").HookHub<import("@antv/x6").Graph.Options, import("@antv/x6").Graph.Options>;
-            reactNodeRender: import("@antv/xflow-hook").HookHub<Map<string, import("..").NsGraph.INodeRender<any>>, Map<string, import("..").NsGraph.INodeRender<any>>>;
-            reactEdgeLabelRender: import("@antv/xflow-hook").HookHub<Map<string, import("..").NsGraph.IEdgeRender<any>>, Map<string, import("..").NsGraph.IEdgeRender<any>>>;
-            afterGraphInit: import("@antv/xflow-hook").HookHub<import("./interface").IGeneralAppService, import("./interface").IGeneralAppService>;
-            beforeGraphDestroy: import("@antv/xflow-hook").HookHub<import("./interface").IGeneralAppService, import("./interface").IGeneralAppService>;
-            x6Events: import("@antv/xflow-hook").HookHub<import("./interface").IEventCollection, import("./interface").IEventSubscription>;
+            graphOptions: import("@tunchz/xflow/xflow-hook").HookHub<import("@tunchz/xflow/x6").Graph.Options, import("@tunchz/xflow/x6").Graph.Options>;
+            reactNodeRender: import("@tunchz/xflow/xflow-hook").HookHub<Map<string, import("..").NsGraph.INodeRender<any>>, Map<string, import("..").NsGraph.INodeRender<any>>>;
+            reactEdgeLabelRender: import("@tunchz/xflow/xflow-hook").HookHub<Map<string, import("..").NsGraph.IEdgeRender<any>>, Map<string, import("..").NsGraph.IEdgeRender<any>>>;
+            afterGraphInit: import("@tunchz/xflow/xflow-hook").HookHub<import("./interface").IGeneralAppService, import("./interface").IGeneralAppService>;
+            beforeGraphDestroy: import("@tunchz/xflow/xflow-hook").HookHub<import("./interface").IGeneralAppService, import("./interface").IGeneralAppService>;
+            x6Events: import("@tunchz/xflow/xflow-hook").HookHub<import("./interface").IEventCollection, import("./interface").IEventSubscription>;
         }>;
         hookhubRegisterFn: IRegisterHookHubFn<{
-            graphOptions: import("@antv/xflow-hook").HookHub<import("@antv/x6").Graph.Options, import("@antv/x6").Graph.Options>;
-            reactNodeRender: import("@antv/xflow-hook").HookHub<Map<string, import("..").NsGraph.INodeRender<any>>, Map<string, import("..").NsGraph.INodeRender<any>>>;
-            reactEdgeLabelRender: import("@antv/xflow-hook").HookHub<Map<string, import("..").NsGraph.IEdgeRender<any>>, Map<string, import("..").NsGraph.IEdgeRender<any>>>;
-            afterGraphInit: import("@antv/xflow-hook").HookHub<import("./interface").IGeneralAppService, import("./interface").IGeneralAppService>;
-            beforeGraphDestroy: import("@antv/xflow-hook").HookHub<import("./interface").IGeneralAppService, import("./interface").IGeneralAppService>;
-            x6Events: import("@antv/xflow-hook").HookHub<import("./interface").IEventCollection, import("./interface").IEventSubscription>;
+            graphOptions: import("@tunchz/xflow/xflow-hook").HookHub<import("@tunchz/xflow/x6").Graph.Options, import("@tunchz/xflow/x6").Graph.Options>;
+            reactNodeRender: import("@tunchz/xflow/xflow-hook").HookHub<Map<string, import("..").NsGraph.INodeRender<any>>, Map<string, import("..").NsGraph.INodeRender<any>>>;
+            reactEdgeLabelRender: import("@tunchz/xflow/xflow-hook").HookHub<Map<string, import("..").NsGraph.IEdgeRender<any>>, Map<string, import("..").NsGraph.IEdgeRender<any>>>;
+            afterGraphInit: import("@tunchz/xflow/xflow-hook").HookHub<import("./interface").IGeneralAppService, import("./interface").IGeneralAppService>;
+            beforeGraphDestroy: import("@tunchz/xflow/xflow-hook").HookHub<import("./interface").IGeneralAppService, import("./interface").IGeneralAppService>;
+            x6Events: import("@tunchz/xflow/xflow-hook").HookHub<import("./interface").IEventCollection, import("./interface").IEventSubscription>;
         }>;
     }>;
     dispose: () => void;

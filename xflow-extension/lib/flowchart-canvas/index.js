@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.FlowchartCanvas = exports.FlowchartExtension = void 0;
 var tslib_1 = require("tslib");
 var react_1 = tslib_1.__importStar(require("react"));
-var xflow_core_1 = require("@antv/xflow-core");
+var xflow_core_1 = require("@tunchz/xflow/xflow-core");
 var config_graph_1 = require("./config-graph");
 var utils_1 = require("./utils");
 var module_1 = require("./extension/module");

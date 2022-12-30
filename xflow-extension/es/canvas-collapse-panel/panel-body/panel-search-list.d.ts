@@ -1,5 +1,5 @@
 import React from 'react';
-import type { NsGraph, IGraphConfig, IModelService, IGraphCommandService } from '@antv/xflow-core';
+import type { NsGraph, IGraphConfig, IModelService, IGraphCommandService } from '@tunchz/xflow/xflow-core';
 import type { IPanelNode } from '../interface';
 interface ISearchList {
     prefixClz: string;

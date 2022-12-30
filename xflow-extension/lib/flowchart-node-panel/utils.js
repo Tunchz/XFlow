@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.createPath = exports.setNodeRender = exports.registerCustomNode = exports.nodeService = exports.getRegisterNode = void 0;
 var tslib_1 = require("tslib");
-var xflow_core_1 = require("@antv/xflow-core");
+var xflow_core_1 = require("@tunchz/xflow/xflow-core");
 var lodash_1 = require("lodash");
 var utils_1 = require("../flowchart-canvas/utils");
 var NodesComponent = tslib_1.__importStar(require("./nodes"));

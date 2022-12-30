@@ -1,7 +1,7 @@
 import { __awaiter } from "tslib";
 import React from 'react';
-import { useXFlowApp, DisposableCollection, createComponentModel } from '@antv/xflow-core';
-import { XFlowModelCommands, Disposable, MODELS } from '@antv/xflow-core';
+import { useXFlowApp, DisposableCollection, createComponentModel } from '@tunchz/xflow/xflow-core';
+import { XFlowModelCommands, Disposable, MODELS } from '@tunchz/xflow/xflow-core';
 export var NsJsonSchemaFormModel;
 (function (NsJsonSchemaFormModel) {
     NsJsonSchemaFormModel.id = 'XFLOW_JSON_SCHEMA_FORM';

@@ -1,7 +1,7 @@
-import type { Graph } from '@antv/x6';
-import type { ICmdHooks } from '@antv/xflow-core';
-import { DisposableCollection, Disposable } from '@antv/xflow-core';
-import { IHookContribution } from '@antv/xflow-core';
+import type { Graph } from '@tunchz/xflow/x6';
+import type { ICmdHooks } from '@tunchz/xflow/xflow-core';
+import { DisposableCollection, Disposable } from '@tunchz/xflow/xflow-core';
+import { IHookContribution } from '@tunchz/xflow/xflow-core';
 export declare const flowOptions: Graph.Options;
 /**
  * 内置的hook contribution

@@ -1,8 +1,8 @@
 import { __awaiter, __decorate } from "tslib";
-import { ManaSyringe, DisposableCollection, Disposable } from '@antv/xflow-core';
-import { IHookContribution } from '@antv/xflow-core';
+import { ManaSyringe, DisposableCollection, Disposable } from '@tunchz/xflow/xflow-core';
+import { IHookContribution } from '@tunchz/xflow/xflow-core';
 import { XFlowNode } from '../x6-extension/node';
-import { Shape } from '@antv/x6';
+import { Shape } from '@tunchz/xflow/x6';
 export const flowOptions = {
     grid: true,
     mousewheel: {

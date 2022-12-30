@@ -1,9 +1,9 @@
-import type { Node as X6Node, Graph as X6Graph } from '@antv/x6';
-import type { HookHub } from '@antv/xflow-hook';
+import type { Node as X6Node, Graph as X6Graph } from '@tunchz/xflow/x6';
+import type { HookHub } from '@tunchz/xflow/xflow-hook';
 import type { NsGraph } from '../../interface';
 import type { IHooks } from '../../hooks/interface';
 import type { IArgsBase } from '../../command/interface';
-import type { PortManager } from '@antv/x6/es/model/port';
+import type { PortManager } from '@tunchz/xflow/x6/es/model/port';
 import { ICommandHandler } from '../../command/interface';
 declare type ICommand = ICommandHandler<NsUpdateNodePort.IArgs, NsUpdateNodePort.IResult, NsUpdateNodePort.ICmdHooks>;
 export declare namespace NsUpdateNodePort {
@@ -38,7 +38,7 @@ export declare namespace NsUpdateNodePort {
 export declare class UpdateNodePort implements ICommand {
     /** api */
     contextProvider: ICommand['contextProvider'];
-    getCell: (graph: X6Graph, node: string | X6Node) => X6Node<X6Node.Properties> | import("@antv/x6").Cell<import("@antv/x6").Cell.Properties>;
+    getCell: (graph: X6Graph, node: string | X6Node) => X6Node<X6Node.Properties> | import("@tunchz/xflow/x6").Cell<import("@tunchz/xflow/x6").Cell.Properties>;
     getNodeConfig: (x6Node: X6Node) => NsGraph.INodeConfig;
     isNodeAnchors(ports: any): ports is NsGraph.INodeAnchor;
     isPortMetaData(ports: any): ports is NsGraph.INodePortMeta;

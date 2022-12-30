@@ -3,7 +3,7 @@ import { __awaiter, __decorate, __metadata } from "tslib";
 /* eslint-disable no-await-in-loop */
 /* eslint-disable max-classes-per-file */
 import { inject, singleton, contrib, Contribution } from 'mana-syringe';
-import { Node as X6Node, Edge as X6Edge } from '@antv/x6';
+import { Node as X6Node, Edge as X6Edge } from '@tunchz/xflow/x6';
 import { IGraphProvider } from '../xflow-main/graph/graph-provider';
 import { IGraphCommandService } from '../command/interface';
 import { IModelService } from '../model-service';

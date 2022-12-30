@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.NsNodeCollapsePanel = exports.NsCollapsePanelModel = exports.NodeCollapsePanel = void 0;
 var tslib_1 = require("tslib");
 var react_1 = tslib_1.__importStar(require("react"));
-var xflow_core_1 = require("@antv/xflow-core");
+var xflow_core_1 = require("@tunchz/xflow/xflow-core");
 var base_panel_1 = require("../base-panel");
 var panel_body_1 = require("./panel-body");
 var panel_header_1 = require("./panel-header");

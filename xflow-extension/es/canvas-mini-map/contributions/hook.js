@@ -1,6 +1,6 @@
 import { __awaiter, __decorate, __metadata } from "tslib";
-import { DisposableCollection, Disposable } from '@antv/xflow-core';
-import { IHookContribution, ManaSyringe } from '@antv/xflow-core';
+import { DisposableCollection, Disposable } from '@tunchz/xflow/xflow-core';
+import { IHookContribution, ManaSyringe } from '@tunchz/xflow/xflow-core';
 import { IMinimapConfigProvider } from '../interface';
 /**
  * 内置的hook contribution

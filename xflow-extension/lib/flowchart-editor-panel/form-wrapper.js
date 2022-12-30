@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.FlowchartFormWrapper = void 0;
 var tslib_1 = require("tslib");
 var react_1 = tslib_1.__importStar(require("react"));
-var xflow_core_1 = require("@antv/xflow-core");
+var xflow_core_1 = require("@tunchz/xflow/xflow-core");
 var utils_1 = require("../flowchart-canvas/utils");
 var canvas_json_schema_form_1 = require("../canvas-json-schema-form");
 var context_1 = require("../base-panel/context");

@@ -1,6 +1,6 @@
 import { __awaiter } from "tslib";
 import React from 'react';
-import { useExtensionRegistry } from '@antv/xflow-core';
+import { useExtensionRegistry } from '@tunchz/xflow/xflow-core';
 import { createFlowchartExtensionModule } from '../module';
 export const FlowchartExtension = () => {
     /** 获取扩展Registry */

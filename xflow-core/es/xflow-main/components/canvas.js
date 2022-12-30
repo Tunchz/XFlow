@@ -4,7 +4,7 @@ import { usePositionStyle } from '../../common/position';
 import { GraphConfig, createX6GraphModule } from '../graph';
 import { useExtensionRegistry } from './extension-context';
 import { useXflowPrefixCls } from './global-config-context';
-import { usePortal } from '@antv/x6-react-shape';
+import { usePortal } from '@tunchz/xflow/x6-react-shape';
 import { useXFlowApp } from './app-context';
 export const XFlowCanvas = props => {
     const app = useXFlowApp();

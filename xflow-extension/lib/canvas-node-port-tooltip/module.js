@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.createModule = void 0;
-var xflow_core_1 = require("@antv/xflow-core");
+var xflow_core_1 = require("@tunchz/xflow/xflow-core");
 require("reflect-metadata");
 /** Application 扩展依赖 */
 var node_port_1 = require("./contributions/node-port");

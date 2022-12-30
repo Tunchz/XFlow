@@ -1,4 +1,4 @@
-import { NodeView } from '@antv/x6';
+import { NodeView } from '@tunchz/xflow/x6';
 export class SimpleNodeView extends NodeView {
     renderMarkup() {
         return this.renderJSONMarkup({

@@ -1,4 +1,4 @@
-import { usePositionStyle } from '@antv/xflow-core';
+import { usePositionStyle } from '@tunchz/xflow/xflow-core';
 import { PANEL_HEADER_HEIGHT, PANEL_FOOTER_HEIGHT } from './constants';
 export const usePanelLyaoutStyle = (config) => {
     const headerHeight = (config && config.headerPosition && config.headerPosition.height) || PANEL_HEADER_HEIGHT;

@@ -1,4 +1,4 @@
-import type { IToolbarGroupOptions } from '@antv/xflow-core';
+import type { IToolbarGroupOptions } from '@tunchz/xflow/xflow-core';
 export declare namespace CANVAS_SCALE_TOOLBAR_CONFIG {
     const ZOOM_IN: string;
     const ZOOM_OUT: string;

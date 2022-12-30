@@ -4,9 +4,9 @@ exports.ToolbarItem = void 0;
 var tslib_1 = require("tslib");
 var react_1 = tslib_1.__importDefault(require("react"));
 var classnames_1 = tslib_1.__importDefault(require("classnames"));
-var x6_react_components_1 = require("@antv/x6-react-components");
-var xflow_core_1 = require("@antv/xflow-core");
-var xflow_core_2 = require("@antv/xflow-core");
+var x6_react_components_1 = require("@tunchz/xflow/x6-react-components");
+var xflow_core_1 = require("@tunchz/xflow/xflow-core");
+var xflow_core_2 = require("@tunchz/xflow/xflow-core");
 var ToolbarItem = function (props) {
     var _a;
     var app = (0, xflow_core_1.useXFlowApp)();

@@ -1,7 +1,7 @@
 import { __awaiter } from "tslib";
 import React from 'react';
 import { createModule } from '../module';
-import { XFlowAppExtensionModule, useExtensionRegistry, insertCss } from '@antv/xflow-core';
+import { XFlowAppExtensionModule, useExtensionRegistry, insertCss } from '@tunchz/xflow/xflow-core';
 export const CONFIG_TYPE = 'CanvasSnapline';
 /** 默认颜色 */
 export const SNAPLINE_COLOR = '#faad14';

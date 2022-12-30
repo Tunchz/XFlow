@@ -8,9 +8,9 @@ import type { IModelService, IUseModel } from '../model-service';
 /** command 类型 */
 import type { IGraphCommandService } from '../command/interface';
 /** 组件类型定义 */
-import type { Toolbar as X6Toolbar } from '@antv/x6-react-components/es/toolbar/toolbar';
-import type { ToolbarGroup as X6ToolbarGroup } from '@antv/x6-react-components/es/toolbar/group';
-import type { ToolbarItem as X6ToolbarItem } from '@antv/x6-react-components/es/toolbar/item';
+import type { Toolbar as X6Toolbar } from '@tunchz/xflow/x6-react-components/es/toolbar/toolbar';
+import type { ToolbarGroup as X6ToolbarGroup } from '@tunchz/xflow/x6-react-components/es/toolbar/group';
+import type { ToolbarItem as X6ToolbarItem } from '@tunchz/xflow/x6-react-components/es/toolbar/item';
 import type { Simplify } from '../common/types';
 import type { ReactElement } from 'react';
 /** 用于了批量注册 可销毁的 Toolbar Item*/

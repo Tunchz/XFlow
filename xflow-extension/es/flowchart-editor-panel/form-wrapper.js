@@ -1,6 +1,6 @@
 import { __awaiter } from "tslib";
 import React, { useCallback } from 'react';
-import { XFlowGraphCommands, MODELS, XFlowNodeCommands, XFlowEdgeCommands } from '@antv/xflow-core';
+import { XFlowGraphCommands, MODELS, XFlowNodeCommands, XFlowEdgeCommands } from '@tunchz/xflow/xflow-core';
 import { onConfigChange } from '../flowchart-canvas/utils';
 import { FormItemWrapper } from '../canvas-json-schema-form';
 import { usePanelContext } from '../base-panel/context';

@@ -5,7 +5,7 @@ export declare class GraphModelContribution implements IModelContribution {
     protected readonly graphProvider: IGraphProvider;
     /** 获取画布实例 */
     getGraphInstance: () => Promise<{
-        graph: import("@antv/x6").Graph;
+        graph: import("@tunchz/xflow/x6").Graph;
         config: import("../..").IGraphConfig;
     }>;
     registerModel(registry: IModelService): void;

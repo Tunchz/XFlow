@@ -1,7 +1,7 @@
 import { __awaiter } from "tslib";
 import React from 'react';
 import { createDagExtensionModule } from '../module';
-import { useExtensionRegistry, XFlowAppExtensionModule } from '@antv/xflow-core';
+import { useExtensionRegistry, XFlowAppExtensionModule } from '@tunchz/xflow/xflow-core';
 export const DagGraphExtension = props => {
     /** 获取扩展Registry */
     const extensionRegistry = useExtensionRegistry();

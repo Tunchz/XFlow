@@ -1,5 +1,5 @@
-import type { Node, Graph } from '@antv/x6';
-import type { HookHub } from '@antv/xflow-hook';
+import type { Node, Graph } from '@tunchz/xflow/x6';
+import type { HookHub } from '@tunchz/xflow/xflow-hook';
 import type { NsGraph } from '../../interface';
 import type { IHooks } from '../../hooks/interface';
 import type { IArgsBase } from '../../command/interface';
@@ -44,7 +44,7 @@ export declare namespace NsAddGroup {
 export declare class AddGroupCommand implements ICommand {
     /** api */
     contextProvider: ICommand['contextProvider'];
-    getBBox: (node: Node, nodeConfig: NsGraph.INodeConfig, graph: Graph) => import("@antv/x6").Rectangle;
+    getBBox: (node: Node, nodeConfig: NsGraph.INodeConfig, graph: Graph) => import("@tunchz/xflow/x6").Rectangle;
     /** 执行Cmd */
     execute: () => Promise<this>;
     /** undo cmd */

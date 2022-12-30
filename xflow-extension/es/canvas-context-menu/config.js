@@ -1,5 +1,5 @@
 import { __awaiter } from "tslib";
-import { uuidv4 } from '@antv/xflow-core';
+import { uuidv4 } from '@tunchz/xflow/xflow-core';
 export var NsContextMenu;
 (function (NsContextMenu) {
     NsContextMenu.CONFIG_TYPE = 'ContextMenuConfig';

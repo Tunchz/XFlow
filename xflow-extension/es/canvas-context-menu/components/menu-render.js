@@ -2,8 +2,8 @@ import { __awaiter } from "tslib";
 import React from 'react';
 import { 
 // app service
-IconStore, } from '@antv/xflow-core';
-import { Menu } from '@antv/x6-react-components';
+IconStore, } from '@tunchz/xflow/xflow-core';
+import { Menu } from '@tunchz/xflow/x6-react-components';
 export const renderMenuOptions = (props) => {
     const { idx, menuOptions: menuItem, target, modelService, commandService, onHide } = props;
     const { id, label, isEnabled = true, isVisible = true, iconName, submenu = [], active, hotkey, render, onClick, } = menuItem;

@@ -16,7 +16,7 @@ var edge_1 = require("./edge");
 var group_1 = require("./group");
 var models_1 = require("./models");
 /** Command Hooks*/
-var xflow_hook_1 = require("@antv/xflow-hook");
+var xflow_hook_1 = require("@tunchz/xflow/xflow-hook");
 var config_1 = require("./config");
 /** Commands 配置项目*/
 var hookhubList = tslib_1.__spreadArray(tslib_1.__spreadArray(tslib_1.__spreadArray(tslib_1.__spreadArray(tslib_1.__spreadArray([], node_1.hookhubList, true), edge_1.hookhubList, true), group_1.hookhubList, true), graph_1.hookhubList, true), models_1.hookhubList, true);

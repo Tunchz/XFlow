@@ -1,5 +1,5 @@
 /// <reference types="react" />
-import type { NsGraph, IModelService } from '@antv/xflow-core';
+import type { NsGraph, IModelService } from '@tunchz/xflow/xflow-core';
 export declare namespace NsPortEvent {
     const MOUSE_ENTER = "node-port:mouseenter";
     interface IPortEvent {
@@ -30,7 +30,7 @@ export declare namespace ACTIVE_NODE_PORT {
     }
     const useModel: (modelService: IModelService) => Promise<{
         data: IState;
-        model: import("@antv/xflow-core").NsModel.IModel<IState>;
+        model: import("@tunchz/xflow/xflow-core").NsModel.IModel<IState>;
     }>;
 }
 export interface IConfigProps {

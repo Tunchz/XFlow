@@ -1,5 +1,5 @@
 import type React from 'react';
-import type { IMenuModel, IMenuTarget } from '@antv/xflow-core';
+import type { IMenuModel, IMenuTarget } from '@tunchz/xflow/xflow-core';
 interface IProps {
     onHide: () => void;
     target: IMenuTarget;

@@ -1,5 +1,5 @@
 import React from 'react';
-import { useXFlowApp, XFlowAppExtensionModule } from '@antv/xflow-core';
+import { useXFlowApp, XFlowAppExtensionModule } from '@tunchz/xflow/xflow-core';
 import { ContextMenuConfig } from './config';
 import { createModule } from './module';
 import { ContextMenuRender } from './components';

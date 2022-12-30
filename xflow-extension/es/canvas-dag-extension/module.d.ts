@@ -1,6 +1,6 @@
 import 'reflect-metadata';
 /** Application 扩展依赖 */
-import type { IExtensionModule } from '@antv/xflow-core';
+import type { IExtensionModule } from '@tunchz/xflow/xflow-core';
 export * from './x6-extension/edge';
 export * from './x6-extension/node';
 import { IProps } from './interface';

@@ -1,15 +1,15 @@
-import type { HookHub } from '@antv/xflow-hook';
-import type { IArgsBase } from '@antv/xflow-core';
-import type { IHooks } from '@antv/xflow-core';
-import { ICommandHandler } from '@antv/xflow-core';
+import type { HookHub } from '@tunchz/xflow/xflow-hook';
+import type { IArgsBase } from '@tunchz/xflow/xflow-core';
+import type { IHooks } from '@tunchz/xflow/xflow-core';
+import { ICommandHandler } from '@tunchz/xflow/xflow-core';
 import { GRAPH_STATUS_INFO } from '../constants';
-import type { Graph as X6Graph } from '@antv/x6';
+import type { Graph as X6Graph } from '@tunchz/xflow/x6';
 declare type ICommand = ICommandHandler<NsGraphStatusCommand.IArgs, NsGraphStatusCommand.IResult, NsGraphStatusCommand.ICmdHooks>;
 export declare namespace NsGraphStatusCommand {
     /** Command: 获取执行状态 */
     const MODEL: typeof GRAPH_STATUS_INFO;
     /** Command: 用于注册 named factory */
-    const command: import("@antv/xflow-core").IGraphCommand;
+    const command: import("@tunchz/xflow/xflow-core").IGraphCommand;
     /** hookName */
     const hookKey = "queryGraphStatus";
     /** hook 参数类型 */
@@ -81,7 +81,7 @@ export declare class QueryGraphStatusCommand implements ICommand {
     /** X6Graph */
     x6Graph: X6Graph;
     /** 获取Model */
-    getStatusModel: () => Promise<import("@antv/xflow-core").NsModel.IModel<GRAPH_STATUS_INFO.IState>>;
+    getStatusModel: () => Promise<import("@tunchz/xflow/xflow-core").NsModel.IModel<GRAPH_STATUS_INFO.IState>>;
     /** 更新Model数据 */
     updateModelValue: (callback: (state: GRAPH_STATUS_INFO.IState) => void) => Promise<void>;
     /** 停止Looping的flag */

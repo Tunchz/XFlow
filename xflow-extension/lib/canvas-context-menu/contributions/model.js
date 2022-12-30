@@ -2,8 +2,8 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.CanvasContextMenuContribution = void 0;
 var tslib_1 = require("tslib");
-var xflow_core_1 = require("@antv/xflow-core");
-var xflow_core_2 = require("@antv/xflow-core");
+var xflow_core_1 = require("@tunchz/xflow/xflow-core");
+var xflow_core_2 = require("@tunchz/xflow/xflow-core");
 var interface_1 = require("../interface");
 var config_1 = require("../config");
 var inject = xflow_core_1.ManaSyringe.inject, singleton = xflow_core_1.ManaSyringe.singleton;

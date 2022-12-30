@@ -1,6 +1,6 @@
 import { __awaiter, __decorate, __metadata } from "tslib";
 import ReactDOM from 'react-dom';
-import { Graph as X6Graph, Dom } from '@antv/x6';
+import { Graph as X6Graph, Dom } from '@tunchz/xflow/x6';
 import { DisposableCollection, Disposable } from '../../common/disposable';
 import { Deferred } from '../../common/deferred';
 import { IGraphOptionProvider } from './config';

@@ -1,7 +1,7 @@
-import { DisposableCollection, Disposable } from '@antv/xflow-core';
-import type { IModelService, IHookService, ICmdHooks, IGraphCommandService } from '@antv/xflow-core';
-import { IGraphCommandFactory, IHookContribution, IModelContribution, IGraphCommandContribution } from '@antv/xflow-core';
-import type { Edge, Graph } from '@antv/x6';
+import { DisposableCollection, Disposable } from '@tunchz/xflow/xflow-core';
+import type { IModelService, IHookService, ICmdHooks, IGraphCommandService } from '@tunchz/xflow/xflow-core';
+import { IGraphCommandFactory, IHookContribution, IModelContribution, IGraphCommandContribution } from '@tunchz/xflow/xflow-core';
+import type { Edge, Graph } from '@tunchz/xflow/x6';
 import type { IProps } from '../interface';
 import { IComponentConfig } from '../interface';
 export declare namespace NsAddEdgeEvent {

@@ -4,7 +4,7 @@ exports.CanvasSnapline = exports.SNAPLINE_COLOR = exports.CONFIG_TYPE = void 0;
 var tslib_1 = require("tslib");
 var react_1 = tslib_1.__importDefault(require("react"));
 var module_1 = require("../module");
-var xflow_core_1 = require("@antv/xflow-core");
+var xflow_core_1 = require("@tunchz/xflow/xflow-core");
 exports.CONFIG_TYPE = 'CanvasSnapline';
 /** 默认颜色 */
 exports.SNAPLINE_COLOR = '#faad14';

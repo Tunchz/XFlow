@@ -1,7 +1,7 @@
 import type { NsGraph } from '../../interface';
 import type { IArgsBase, IContext } from '../../command/interface';
 import { ICommandHandler } from '../../command/interface';
-import type { HookHub } from '@antv/xflow-hook';
+import type { HookHub } from '@tunchz/xflow/xflow-hook';
 import type { IHooks } from '../../hooks/interface';
 declare type ICommand = ICommandHandler<NsRedoCmd.IArgs, NsRedoCmd.IResult, NsRedoCmd.ICmdHooks>;
 export declare namespace NsRedoCmd {

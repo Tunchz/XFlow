@@ -1,9 +1,9 @@
-import type { Edge as X6Edge } from '@antv/x6';
+import type { Edge as X6Edge } from '@tunchz/xflow/x6';
 import type { NsGraph } from '../../interface';
 import type { IContext, IArgsBase } from '../../command/interface';
 import { ICommandHandler } from '../../command/interface';
 import type { IHooks } from '../../hooks/interface';
-import type { HookHub } from '@antv/xflow-hook';
+import type { HookHub } from '@tunchz/xflow/xflow-hook';
 declare type ICommand = ICommandHandler<NsUpdateEdge.IArgs, NsUpdateEdge.IResult, NsUpdateEdge.ICmdHooks>;
 export declare namespace NsUpdateEdge {
     const command: import("../../command/interface").IGraphCommand;

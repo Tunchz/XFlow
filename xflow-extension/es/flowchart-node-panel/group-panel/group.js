@@ -1,6 +1,6 @@
 import React from 'react';
 import { PlusSquareOutlined, MinusSquareOutlined } from '@ant-design/icons';
-import { useXFlowApp, XFlowGroupCommands } from '@antv/xflow-core';
+import { useXFlowApp, XFlowGroupCommands } from '@tunchz/xflow/xflow-core';
 export const GroupNode = props => {
     const { cell, data: { label, stroke, fill, fontSize, fontFill, width = 200, isCollapsed = false }, } = props;
     const app = useXFlowApp();

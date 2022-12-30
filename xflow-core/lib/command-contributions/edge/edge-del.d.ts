@@ -2,8 +2,8 @@ import type { NsGraph } from '../../interface';
 import type { IContext, IArgsBase } from '../../command/interface';
 import { ICommandHandler } from '../../command/interface';
 import type { IHooks } from '../../hooks/interface';
-import type { HookHub } from '@antv/xflow-hook';
-import type { Cell, Edge, Model } from '@antv/x6';
+import type { HookHub } from '@tunchz/xflow/xflow-hook';
+import type { Cell, Edge, Model } from '@tunchz/xflow/x6';
 export declare type ICommand = ICommandHandler<NsDelEdge.IArgs, NsDelEdge.IResult, NsDelEdge.ICmdHooks>;
 export declare namespace NsDelEdge {
     /** Command: 用于注册named factory */

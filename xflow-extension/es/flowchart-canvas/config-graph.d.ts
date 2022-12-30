@@ -1,5 +1,5 @@
-import type { NsGraph } from '@antv/xflow-core';
-import type { Edge } from '@antv/x6';
+import type { NsGraph } from '@tunchz/xflow/xflow-core';
+import type { Edge } from '@tunchz/xflow/x6';
 import type { IFlowchartGraphProps } from './interface';
 export declare namespace NsAddEdgeEvent {
     const EVENT_NAME = "ADD_FLOWCHART_EDGE_CMD_EVENT";
@@ -13,4 +13,4 @@ export declare namespace NsAddEdgeEvent {
         attrs?: NsGraph.IEdgeConfig['attrs'];
     }
 }
-export declare const useGraphConfig: (props?: IFlowchartGraphProps) => import("@antv/xflow-core").GraphConfig;
+export declare const useGraphConfig: (props?: IFlowchartGraphProps) => import("@tunchz/xflow/xflow-core").GraphConfig;

@@ -1,5 +1,5 @@
 import React from 'react';
-import { useXFlowApp } from '@antv/xflow-core';
+import { useXFlowApp } from '@tunchz/xflow/xflow-core';
 import { usePanelContext } from '../base-panel/context';
 export const PanelFooter = props => {
     const { state } = props;

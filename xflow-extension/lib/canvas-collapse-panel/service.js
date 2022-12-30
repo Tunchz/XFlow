@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.useCollapsePanelData = exports.executeCollapsePanelCommand = void 0;
 var tslib_1 = require("tslib");
 var react_1 = tslib_1.__importDefault(require("react"));
-var xflow_core_1 = require("@antv/xflow-core");
+var xflow_core_1 = require("@tunchz/xflow/xflow-core");
 var interface_1 = require("./interface");
 /** 方便其他组件执行Command改变Panel内部状态 */
 var executeCollapsePanelCommand = function (cmds, updateModel) {

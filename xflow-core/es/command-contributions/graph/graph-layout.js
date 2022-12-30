@@ -1,6 +1,6 @@
 import { __awaiter, __decorate, __metadata } from "tslib";
 import { inject, injectable, postConstruct } from 'mana-syringe';
-import * as AntvLayout from '@antv/layout';
+import * as AntvLayout from '@tunchz/xflow/layout';
 import { ICommandHandler, ICommandContextProvider } from '../../command/interface';
 import { XFlowGraphCommands } from '../constant';
 /** 画布图数据执行布局算法命令 */

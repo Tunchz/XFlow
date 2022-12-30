@@ -1,6 +1,6 @@
 import React, { useState, useRef, memo } from 'react';
 import { render, createPortal } from 'react-dom';
-import { useXFlowApp } from '@antv/xflow-core';
+import { useXFlowApp } from '@tunchz/xflow/xflow-core';
 import { Button } from 'antd';
 import { SketchPicker } from 'react-color';
 import { PREFIX } from '../constants';

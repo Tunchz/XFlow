@@ -1,6 +1,6 @@
 import { __awaiter, __decorate, __metadata } from "tslib";
-import { ManaSyringe, DisposableCollection, MenuItemType, IModelContribution, IModelService, RxModel, Disposable, } from '@antv/xflow-core';
-import { MODELS } from '@antv/xflow-core';
+import { ManaSyringe, DisposableCollection, MenuItemType, IModelContribution, IModelService, RxModel, Disposable, } from '@tunchz/xflow/xflow-core';
+import { MODELS } from '@tunchz/xflow/xflow-core';
 import { CONTEXT_MENU_MODEL } from '../interface';
 import { ContextMenuConfig } from '../config';
 const { inject, singleton } = ManaSyringe;

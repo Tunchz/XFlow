@@ -1,7 +1,7 @@
 import React from 'react';
 import type { NsTreePanelData, IProps, ITreeNode, IOnFolderExpand, INodeFactoryArgs } from './interface';
-import type { IModelService, IGraphCommandService, IGraphConfig } from '@antv/xflow-core';
-export declare const defaultNodeFactory: (args: INodeFactoryArgs) => import("@antv/x6").Node<import("@antv/x6").Node.Properties>;
+import type { IModelService, IGraphCommandService, IGraphConfig } from '@tunchz/xflow/xflow-core';
+export declare const defaultNodeFactory: (args: INodeFactoryArgs) => import("@tunchz/xflow/x6").Node<import("@tunchz/xflow/x6").Node.Properties>;
 interface IConfigRenderOptions {
     graphConfig: IGraphConfig;
     nodeConfig: ITreeNode;

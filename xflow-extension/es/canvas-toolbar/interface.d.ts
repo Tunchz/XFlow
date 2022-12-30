@@ -1,4 +1,4 @@
-import type { IPosition, IModelService, IToolbarModel, IToolbarLayout, DisposableCollection, IToolbarOptions } from '@antv/xflow-core';
+import type { IPosition, IModelService, IToolbarModel, IToolbarLayout, DisposableCollection, IToolbarOptions } from '@tunchz/xflow/xflow-core';
 import type React from 'react';
 import type { ToolbarConfig } from './config';
 export interface IToolbarProps {

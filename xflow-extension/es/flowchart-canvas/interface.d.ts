@@ -1,7 +1,7 @@
 import type React from 'react';
-import type { IPosition, NsGraph } from '@antv/xflow-core';
-import type { GraphConfig } from '@antv/xflow-core/es/xflow-main/graph/config';
-import type { Graph as X6Graph, Edge } from '@antv/x6';
+import type { IPosition, NsGraph } from '@tunchz/xflow/xflow-core';
+import type { GraphConfig } from '@tunchz/xflow/xflow-core/es/xflow-main/graph/config';
+import type { Graph as X6Graph, Edge } from '@tunchz/xflow/x6';
 export declare type Datum = {
     nodes?: unknown[];
     egdes?: unknown[];

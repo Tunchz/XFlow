@@ -1,5 +1,5 @@
 import React from 'react';
-import { useXFlowApp, usePositionStyle } from '@antv/xflow-core';
+import { useXFlowApp, usePositionStyle } from '@tunchz/xflow/xflow-core';
 import classNames from 'classnames';
 import { PropsProxy } from './config';
 import { PanelContext } from './context';

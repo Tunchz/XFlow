@@ -2,8 +2,8 @@ import { __awaiter } from "tslib";
 import React, { useState } from 'react';
 import { Tree, Empty, Popover } from 'antd';
 import { FolderFilled, FolderOpenFilled } from '@ant-design/icons';
-import { Addon } from '@antv/x6';
-import { getNodeReactComponent, useXFlowApp, XFlowConstants } from '@antv/xflow-core';
+import { Addon } from '@tunchz/xflow/x6';
+import { getNodeReactComponent, useXFlowApp, XFlowConstants } from '@tunchz/xflow/xflow-core';
 import { XFlowNode } from '../canvas-dag-extension/x6-extension/node';
 const { DirectoryTree, TreeNode } = Tree;
 const FolderIcon = ({ expanded }) => {

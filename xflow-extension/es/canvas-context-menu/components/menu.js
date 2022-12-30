@@ -1,5 +1,5 @@
 import { renderMenuOptions } from './menu-render';
-import { useModel, useXFlowApp } from '@antv/xflow-core';
+import { useModel, useXFlowApp } from '@tunchz/xflow/xflow-core';
 export const XFlowMenu = props => {
     const { menuModel, target, onHide } = props;
     const { modelService, commandService } = useXFlowApp();

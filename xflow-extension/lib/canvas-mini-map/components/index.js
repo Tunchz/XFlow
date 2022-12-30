@@ -4,8 +4,8 @@ exports.CanvasMiniMap = exports.getDefaultMinimapOptions = exports.CONFIG_TYPE =
 var tslib_1 = require("tslib");
 var react_1 = tslib_1.__importDefault(require("react"));
 var module_1 = require("../module");
-var xflow_core_1 = require("@antv/xflow-core");
-var xflow_core_2 = require("@antv/xflow-core");
+var xflow_core_1 = require("@tunchz/xflow/xflow-core");
+var xflow_core_2 = require("@tunchz/xflow/xflow-core");
 var x6_node_view_1 = require("../x6-node-view");
 /** 配置类型 */
 exports.CONFIG_TYPE = 'CanvasMiniMap';

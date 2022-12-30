@@ -1,4 +1,4 @@
-import { uuidv4 } from '@antv/xflow-core';
+import { uuidv4 } from '@tunchz/xflow/xflow-core';
 export const CONFIG_TYPE = 'CanvasToolbar';
 export class ToolbarConfig {
     /** uuid */

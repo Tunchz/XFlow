@@ -1,5 +1,5 @@
 import type { Disposable } from '../common/disposable';
-import type { HookHub } from '@antv/xflow-hook';
+import type { HookHub } from '@tunchz/xflow/xflow-hook';
 import type { IHooks } from './interface';
 import { Contribution } from 'mana-syringe';
 import { IFrontendApplicationContribution } from '../xflow-main/interface';

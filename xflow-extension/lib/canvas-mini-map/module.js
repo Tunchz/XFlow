@@ -5,7 +5,7 @@ require("reflect-metadata");
 /** Application 扩展依赖 */
 var hook_1 = require("./contributions/hook");
 var interface_1 = require("./interface");
-var xflow_core_1 = require("@antv/xflow-core");
+var xflow_core_1 = require("@tunchz/xflow/xflow-core");
 /** 依赖扩展模块，必须要加载 */
 var createModule = function (config) {
     return xflow_core_1.ManaSyringe.Module(function (register) {

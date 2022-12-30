@@ -1,5 +1,5 @@
 import { __awaiter } from "tslib";
-import { useXFlowApp, createComponentModel, DisposableCollection } from '@antv/xflow-core';
+import { useXFlowApp, createComponentModel, DisposableCollection } from '@tunchz/xflow/xflow-core';
 import React from 'react';
 export const useToolbarModel = (props) => {
     const { config } = props;

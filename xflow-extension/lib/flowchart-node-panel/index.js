@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.FlowchartNodePanel = exports.NodePanelMain = exports.setGroupRender = void 0;
 var tslib_1 = require("tslib");
 var react_1 = tslib_1.__importStar(require("react"));
-var xflow_core_1 = require("@antv/xflow-core");
+var xflow_core_1 = require("@tunchz/xflow/xflow-core");
 var icons_1 = require("@ant-design/icons");
 var lodash_1 = require("lodash");
 var base_panel_1 = require("../base-panel");

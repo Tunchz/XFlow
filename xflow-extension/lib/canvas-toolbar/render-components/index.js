@@ -5,9 +5,9 @@ var tslib_1 = require("tslib");
 var react_1 = tslib_1.__importDefault(require("react"));
 var antd_1 = require("antd");
 var classnames_1 = tslib_1.__importDefault(require("classnames"));
-var xflow_core_1 = require("@antv/xflow-core");
+var xflow_core_1 = require("@tunchz/xflow/xflow-core");
 // component
-var x6_react_components_1 = require("@antv/x6-react-components");
+var x6_react_components_1 = require("@tunchz/xflow/x6-react-components");
 var toolbar_group_1 = require("./toolbar-group");
 var service_1 = require("../service");
 var classnames_2 = tslib_1.__importDefault(require("classnames"));

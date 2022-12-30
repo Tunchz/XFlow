@@ -1,6 +1,6 @@
 import { __awaiter, __decorate, __metadata } from "tslib";
 import { inject, injectable } from 'mana-syringe';
-import { HookHub } from '@antv/xflow-hook';
+import { HookHub } from '@tunchz/xflow/xflow-hook';
 import { ICommandHandler, ICommandContextProvider } from '../../command/interface';
 import { XFlowEdgeCommands, XFlowNodeCommands } from '../constant';
 import { Disposable } from '../../common/disposable';

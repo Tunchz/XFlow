@@ -1,5 +1,5 @@
 import type { Disposable } from '../common/disposable';
-import type { Graph as X6Graph } from '@antv/x6';
+import type { Graph as X6Graph } from '@tunchz/xflow/x6';
 import { Syringe } from 'mana-syringe';
 import type { NsModel } from '../common/rx-model';
 import type { Token } from '../common/types';

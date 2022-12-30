@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.JsonSchemaForm = exports.JsonSchemaFormMain = exports.executeJsonSchemaFormCommand = exports.FormItemWrapper = void 0;
 var tslib_1 = require("tslib");
 var react_1 = tslib_1.__importDefault(require("react"));
-var xflow_core_1 = require("@antv/xflow-core");
+var xflow_core_1 = require("@tunchz/xflow/xflow-core");
 var panel_footer_1 = require("./panel-footer");
 var panel_header_1 = require("./panel-header");
 var panel_body_1 = require("./panel-body");

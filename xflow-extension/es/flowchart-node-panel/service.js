@@ -1,6 +1,6 @@
 import { __awaiter } from "tslib";
 import React from 'react';
-import { createComponentModel, Disposable, MODELS, useXFlowApp } from '@antv/xflow-core';
+import { createComponentModel, Disposable, MODELS, useXFlowApp } from '@tunchz/xflow/xflow-core';
 import { nodeService } from './utils';
 import { isArray } from 'lodash';
 export var NsPanelData;

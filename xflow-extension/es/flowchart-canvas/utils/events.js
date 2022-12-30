@@ -1,5 +1,5 @@
 import { __awaiter } from "tslib";
-import { XFlowNodeCommands, XFlowEdgeCommands } from '@antv/xflow-core';
+import { XFlowNodeCommands, XFlowEdgeCommands } from '@tunchz/xflow/xflow-core';
 import { get } from 'lodash';
 import { onConfigChange, getGraphInstance } from './util';
 /** 节点移动时，实时更新位置信息，内置之后可去掉 */

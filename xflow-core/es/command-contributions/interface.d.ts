@@ -5,7 +5,7 @@ import type { ICmdHooks as IEdgeHooks, NsEdgeCmd } from './edge';
 import type { ICmdHooks as IGroupHooks, NsGroupCmd } from './group';
 import type { ICmdHooks as IModelHooks, NsModelServiceCmd } from './models';
 import type { IGraphCommand, ICommandHandler } from '../command/interface';
-import type { HookHub } from '@antv/xflow-hook';
+import type { HookHub } from '@tunchz/xflow/xflow-hook';
 import type { ClassOf, Simplify } from '../common/types';
 declare type ICmdHooks = Simplify<INodeHooks & IEdgeHooks & IGroupHooks & IGraphHooks & IModelHooks>;
 export { IHooks, ICmdHooks, NsModelServiceCmd, NsGraphCmd, NsNodeCmd, NsEdgeCmd, NsGroupCmd };

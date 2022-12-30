@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.CONTEXT_MENU_MODEL = void 0;
-var xflow_core_1 = require("@antv/xflow-core");
+var xflow_core_1 = require("@tunchz/xflow/xflow-core");
 var CONTEXT_MENU_MODEL;
 (function (CONTEXT_MENU_MODEL) {
     CONTEXT_MENU_MODEL.id = 'CONTEXT_MENU_MODEL';

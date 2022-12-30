@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom';
 import classnames from 'classnames';
 import { ConfigProvider, Tooltip } from 'antd';
 import merge from 'lodash/merge';
-import { createGraphConfig } from '@antv/xflow-core';
-import { Shape } from '@antv/x6';
+import { createGraphConfig } from '@tunchz/xflow/xflow-core';
+import { Shape } from '@tunchz/xflow/x6';
 import { NODE_HEIGHT, ASPECTRATIONODE, setNodeRender, setGroupRender, } from '../flowchart-node-panel';
 import { movedNode, resizeNode, changePortsVisible, addTools, removeTools, setProps } from './utils';
 /** 临时边 */

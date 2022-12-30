@@ -3,11 +3,11 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.UpdateNodeCommand = exports.NsUpdateNode = void 0;
 var tslib_1 = require("tslib");
 var mana_syringe_1 = require("mana-syringe");
-var x6_1 = require("@antv/x6");
+var x6_1 = require("@tunchz/xflow/x6");
 var isBoolean_1 = tslib_1.__importDefault(require("lodash/isBoolean"));
 var constant_1 = require("../constant");
 var interface_1 = require("../../command/interface");
-var x6_react_shape_1 = require("@antv/x6-react-shape");
+var x6_react_shape_1 = require("@tunchz/xflow/x6-react-shape");
 var NsUpdateNode;
 (function (NsUpdateNode) {
     NsUpdateNode.command = constant_1.XFlowNodeCommands.UPDATE_NODE;

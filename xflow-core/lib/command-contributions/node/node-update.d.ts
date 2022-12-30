@@ -1,6 +1,6 @@
-import type { Graph as X6Graph } from '@antv/x6';
-import { Node as X6Node } from '@antv/x6';
-import type { HookHub } from '@antv/xflow-hook';
+import type { Graph as X6Graph } from '@tunchz/xflow/x6';
+import { Node as X6Node } from '@tunchz/xflow/x6';
+import type { HookHub } from '@tunchz/xflow/xflow-hook';
 import type { IHooks } from '../../hooks/interface';
 import type { NsGraph } from '../../interface';
 import type { IContext, IArgsBase } from '../../command/interface';

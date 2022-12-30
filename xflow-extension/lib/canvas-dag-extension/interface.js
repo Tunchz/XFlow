@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.IComponentConfig = exports.LayoutEnum = void 0;
-var xflow_core_1 = require("@antv/xflow-core");
+var xflow_core_1 = require("@tunchz/xflow/xflow-core");
 /** 画布布局 */
 var LayoutEnum;
 (function (LayoutEnum) {

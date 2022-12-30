@@ -1,5 +1,5 @@
 import React from 'react';
-import { XFlowConstants } from '@antv/xflow-core';
+import { XFlowConstants } from '@tunchz/xflow/xflow-core';
 import { Popover } from 'antd';
 export const renderNode = (props) => {
     const { nodeConfig, onMouseDown, graphConfig, modelService, commandService } = props;

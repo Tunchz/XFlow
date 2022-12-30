@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.registerGraphModule = exports.GraphManager = exports.IModelServiceProvider = exports.ICommandServiceProvider = exports.IGraphProvider = void 0;
 var tslib_1 = require("tslib");
 var react_dom_1 = tslib_1.__importDefault(require("react-dom"));
-var x6_1 = require("@antv/x6");
+var x6_1 = require("@tunchz/xflow/x6");
 var disposable_1 = require("../../common/disposable");
 var deferred_1 = require("../../common/deferred");
 var config_1 = require("./config");

@@ -4,7 +4,7 @@ exports.CanvasNodePortTooltip = exports.CONFIG_TYPE = void 0;
 var tslib_1 = require("tslib");
 var react_1 = tslib_1.__importDefault(require("react"));
 var antd_1 = require("antd");
-var xflow_core_1 = require("@antv/xflow-core");
+var xflow_core_1 = require("@tunchz/xflow/xflow-core");
 var interface_1 = require("../interface");
 var module_1 = require("../module");
 exports.CONFIG_TYPE = 'CanvasNodePortTooltip';

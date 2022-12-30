@@ -1,4 +1,4 @@
-import { Graph, Path, Registry, Shape } from '@antv/x6';
+import { Graph, Path, Registry, Shape } from '@tunchz/xflow/x6';
 import { EDGE_PATH_TYPE, XFLOW_SHAPE } from '../constants';
 if (!Registry.Connector.registry.exist(EDGE_PATH_TYPE.VERTICAL_NODE)) {
     Graph.registerConnector(EDGE_PATH_TYPE.VERTICAL_NODE, (s, e) => {

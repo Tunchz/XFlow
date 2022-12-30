@@ -1,7 +1,7 @@
 import { __awaiter, __decorate, __metadata } from "tslib";
-import { ManaSyringe, DisposableCollection, NsGraph, Disposable, XFlowEdgeCommands, } from '@antv/xflow-core';
-import { IGraphCommandFactory, IHookContribution, IModelContribution, IGraphCommandContribution, } from '@antv/xflow-core';
-import { HookHub } from '@antv/xflow-hook';
+import { ManaSyringe, DisposableCollection, NsGraph, Disposable, XFlowEdgeCommands, } from '@tunchz/xflow/xflow-core';
+import { IGraphCommandFactory, IHookContribution, IModelContribution, IGraphCommandContribution, } from '@tunchz/xflow/xflow-core';
+import { HookHub } from '@tunchz/xflow/xflow-hook';
 import { XFlowNode } from '../x6-extension/node';
 import { XFlowEdge } from '../x6-extension/edge';
 import { GRAPH_STATUS_INFO } from '../constants';

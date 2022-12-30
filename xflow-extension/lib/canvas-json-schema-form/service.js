@@ -3,8 +3,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.useJsonSchemaFormModel = exports.executeJsonSchemaFormCommand = exports.NsJsonSchemaFormModel = void 0;
 var tslib_1 = require("tslib");
 var react_1 = tslib_1.__importDefault(require("react"));
-var xflow_core_1 = require("@antv/xflow-core");
-var xflow_core_2 = require("@antv/xflow-core");
+var xflow_core_1 = require("@tunchz/xflow/xflow-core");
+var xflow_core_2 = require("@tunchz/xflow/xflow-core");
 var NsJsonSchemaFormModel;
 (function (NsJsonSchemaFormModel) {
     var _this = this;

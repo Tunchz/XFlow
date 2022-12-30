@@ -1,7 +1,7 @@
 import type { Disposable } from '../common/disposable';
-import type { Graph } from '@antv/x6';
+import type { Graph } from '@tunchz/xflow/x6';
 import type { IHooks } from '../hooks/interface';
-import type { IRuntimeHook } from '@antv/xflow-hook/es/interface';
+import type { IRuntimeHook } from '@tunchz/xflow/xflow-hook/es/interface';
 import type { ICommandHandler, IContext } from '../command/interface';
 import type { NsGraph } from '../interface';
 import { DisposableCollection } from '../common/disposable';

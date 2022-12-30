@@ -1,6 +1,6 @@
 import { __awaiter } from "tslib";
 import React from 'react';
-import { useXflowPrefixCls } from '@antv/xflow-core';
+import { useXflowPrefixCls } from '@tunchz/xflow/xflow-core';
 import { PanelFooter } from './panel-footer';
 import { PanelHeader } from './panel-header';
 import { PanelBody } from './panel-body';

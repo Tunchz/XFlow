@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.createToolbarConfig = exports.CanvasToolbar = void 0;
 var tslib_1 = require("tslib");
 var react_1 = tslib_1.__importDefault(require("react"));
-var xflow_core_1 = require("@antv/xflow-core");
+var xflow_core_1 = require("@tunchz/xflow/xflow-core");
 var config_1 = require("./config");
 var render_components_1 = require("./render-components");
 var CanvasToolbar = function (props) {

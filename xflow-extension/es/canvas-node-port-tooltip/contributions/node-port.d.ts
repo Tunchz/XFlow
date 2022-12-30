@@ -1,9 +1,9 @@
-import type { Graph } from '@antv/x6';
-import type { IModelService } from '@antv/xflow-core';
-import type { ICmdHooks } from '@antv/xflow-core';
-import { IHookContribution } from '@antv/xflow-core';
-import { IGraphProvider } from '@antv/xflow-core';
-import { DisposableCollection, IModelContribution, Disposable } from '@antv/xflow-core';
+import type { Graph } from '@tunchz/xflow/x6';
+import type { IModelService } from '@tunchz/xflow/xflow-core';
+import type { ICmdHooks } from '@tunchz/xflow/xflow-core';
+import { IHookContribution } from '@tunchz/xflow/xflow-core';
+import { IGraphProvider } from '@tunchz/xflow/xflow-core';
+import { DisposableCollection, IModelContribution, Disposable } from '@tunchz/xflow/xflow-core';
 /**
  * 内置的hook contribution
  * 处理 config上的runtime的注册项
@@ -14,7 +14,7 @@ export declare class NodePortTooltipContribution implements IHookContribution<IC
     /** 获取画布实例 */
     getGraphInstance: () => Promise<{
         graph: Graph;
-        config: import("@antv/xflow-core").IGraphConfig;
+        config: import("@tunchz/xflow/xflow-core").IGraphConfig;
     }>;
     /** 获取GraphOptions */
     getPortRenderConfig: () => Graph.Options;

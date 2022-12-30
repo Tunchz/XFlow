@@ -1,5 +1,5 @@
-import type { Cell, Node } from '@antv/x6';
-import type { HookHub } from '@antv/xflow-hook';
+import type { Cell, Node } from '@tunchz/xflow/x6';
+import type { HookHub } from '@tunchz/xflow/xflow-hook';
 import type { NsGraph } from '../../interface';
 import type { IHooks } from '../../hooks/interface';
 import type { IArgsBase } from '../../command/interface';

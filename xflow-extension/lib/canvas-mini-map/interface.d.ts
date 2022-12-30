@@ -1,4 +1,4 @@
-import type { Graph } from '@antv/x6';
+import type { Graph } from '@tunchz/xflow/x6';
 export interface IMinimapOptions {
     enabled?: boolean;
     container?: HTMLElement;

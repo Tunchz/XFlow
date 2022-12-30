@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.removeTools = exports.addTools = exports.changePortsVisible = exports.resetTransform = exports.setTransform = exports.getSelectedCellPorts = exports.resizeNode = exports.movedNode = void 0;
 var tslib_1 = require("tslib");
-var xflow_core_1 = require("@antv/xflow-core");
+var xflow_core_1 = require("@tunchz/xflow/xflow-core");
 var lodash_1 = require("lodash");
 var util_1 = require("./util");
 /** 节点移动时，实时更新位置信息，内置之后可去掉 */

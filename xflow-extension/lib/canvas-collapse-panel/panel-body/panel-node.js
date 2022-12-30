@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.PanelNode = exports.renderNode = void 0;
 var tslib_1 = require("tslib");
 var react_1 = tslib_1.__importDefault(require("react"));
-var xflow_core_1 = require("@antv/xflow-core");
+var xflow_core_1 = require("@tunchz/xflow/xflow-core");
 var antd_1 = require("antd");
 var renderNode = function (props) {
     var nodeConfig = props.nodeConfig, onMouseDown = props.onMouseDown, graphConfig = props.graphConfig, modelService = props.modelService, commandService = props.commandService;

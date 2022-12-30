@@ -3,8 +3,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.FlowHooksContribution = void 0;
 var tslib_1 = require("tslib");
 var mana_syringe_1 = require("mana-syringe");
-var xflow_core_1 = require("@antv/xflow-core");
-var xflow_core_2 = require("@antv/xflow-core");
+var xflow_core_1 = require("@tunchz/xflow/xflow-core");
+var xflow_core_2 = require("@tunchz/xflow/xflow-core");
 var config_graph_1 = require("../../config-graph");
 var utils_1 = require("../../utils");
 /**

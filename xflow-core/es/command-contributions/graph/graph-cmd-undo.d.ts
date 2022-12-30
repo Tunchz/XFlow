@@ -1,6 +1,6 @@
 import type { IArgsBase, IContext } from '../../command/interface';
 import { ICommandHandler } from '../../command/interface';
-import type { HookHub } from '@antv/xflow-hook';
+import type { HookHub } from '@tunchz/xflow/xflow-hook';
 import type { IHooks } from '../../hooks/interface';
 declare type ICommand = ICommandHandler<NsUndoCmd.IArgs, NsUndoCmd.IResult, NsUndoCmd.ICmdHooks>;
 export declare namespace NsUndoCmd {

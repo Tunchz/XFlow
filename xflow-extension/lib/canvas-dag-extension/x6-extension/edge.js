@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.XFlowEdge = exports.EDGE_PATH_TYPE = void 0;
-var x6_1 = require("@antv/x6");
+var x6_1 = require("@tunchz/xflow/x6");
 var constants_1 = require("../constants");
 Object.defineProperty(exports, "EDGE_PATH_TYPE", { enumerable: true, get: function () { return constants_1.EDGE_PATH_TYPE; } });
 if (!x6_1.Registry.Connector.registry.exist(constants_1.EDGE_PATH_TYPE.VERTICAL_NODE)) {

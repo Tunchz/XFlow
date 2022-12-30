@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.useConfig = exports.TOOLBAR_TYPE = exports.CANVAS_SCALE_TOOLBAR_CONFIG = void 0;
 var tslib_1 = require("tslib");
-var xflow_core_1 = require("@antv/xflow-core");
+var xflow_core_1 = require("@tunchz/xflow/xflow-core");
 var icons_1 = require("@ant-design/icons");
 var canvas_toolbar_1 = require("../canvas-toolbar");
 var CANVAS_SCALE_TOOLBAR_CONFIG;

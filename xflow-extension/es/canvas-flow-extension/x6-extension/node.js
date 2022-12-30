@@ -1,8 +1,8 @@
 /* eslint-disable @typescript-eslint/lines-between-class-members */
-import { ReactShape } from '@antv/x6-react-shape';
-import { Node } from '@antv/x6';
+import { ReactShape } from '@tunchz/xflow/x6-react-shape';
+import { Node } from '@tunchz/xflow/x6';
 import { XFLOW_NODE_SHAPE, NODE_DEFAULT_WIDTH, NODE_DEFAULT_HEIGHT } from '../constants';
-import { NsGraph, XFlowConstants } from '@antv/xflow-core';
+import { NsGraph, XFlowConstants } from '@tunchz/xflow/xflow-core';
 let XFlowNode;
 const { AnchorGroup } = NsGraph;
 const portAttrs = {

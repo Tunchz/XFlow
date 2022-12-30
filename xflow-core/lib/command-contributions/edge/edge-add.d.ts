@@ -1,8 +1,8 @@
 import type { NsGraph } from '../../interface';
 import type { IContext, IArgsBase } from '../../command/interface';
 import type { IHooks } from '../../hooks/interface';
-import type { HookHub } from '@antv/xflow-hook';
-import type { Edge as X6Edge, Model } from '@antv/x6';
+import type { HookHub } from '@tunchz/xflow/xflow-hook';
+import type { Edge as X6Edge, Model } from '@tunchz/xflow/x6';
 import { ICommandHandler } from '../../command/interface';
 export declare type ICommand = ICommandHandler<NsAddEdge.IArgs, NsAddEdge.IResult, NsAddEdge.ICmdHooks>;
 export declare namespace NsAddEdge {

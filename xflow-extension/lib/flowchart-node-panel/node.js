@@ -1,10 +1,10 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.AnchorGroup = exports.XFlowNode = exports.NODE_DEFAULT_HEIGHT = exports.NODE_DEFAULT_WIDTH = exports.XFLOW_NODE_SHAPE = void 0;
-var x6_react_shape_1 = require("@antv/x6-react-shape");
-var x6_1 = require("@antv/x6");
-var constants_1 = require("@antv/xflow-core/es/constants");
-var interface_1 = require("@antv/xflow-core/es/interface");
+var x6_react_shape_1 = require("@tunchz/xflow/x6-react-shape");
+var x6_1 = require("@tunchz/xflow/x6");
+var constants_1 = require("@tunchz/xflow/xflow-core/es/constants");
+var interface_1 = require("@tunchz/xflow/xflow-core/es/interface");
 exports.XFLOW_NODE_SHAPE = 'XFLOW_NODE_SHAPE';
 exports.NODE_DEFAULT_WIDTH = 160;
 exports.NODE_DEFAULT_HEIGHT = 32;

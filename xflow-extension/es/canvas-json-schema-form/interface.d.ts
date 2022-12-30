@@ -1,8 +1,8 @@
 import type React from 'react';
 import type { FormInstance } from 'antd';
 import type { FieldData, Rule } from 'rc-field-form/es/interface';
-import type { IPosition, NsGraph, IModelService, IGraphCommandService } from '@antv/xflow-core';
-import type { Cell, Graph as X6Graph } from '@antv/x6';
+import type { IPosition, NsGraph, IModelService, IGraphCommandService } from '@tunchz/xflow/xflow-core';
+import type { Cell, Graph as X6Graph } from '@tunchz/xflow/x6';
 export { FieldData };
 /** Panel 布局 */
 export interface IPanelProps {

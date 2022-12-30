@@ -10,6 +10,6 @@ export declare namespace NsPanelData {
 }
 export declare const usePanelData: (props: IProps) => {
     state: NsPanelData.IState;
-    setState: import("@antv/xflow-core").NsModel.ISetValue<NsPanelData.IState>;
+    setState: import("@tunchz/xflow/xflow-core").NsModel.ISetValue<NsPanelData.IState>;
     onKeywordChange: (keyword: string) => Promise<void>;
 };

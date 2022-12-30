@@ -1,7 +1,7 @@
 import React from 'react';
 import type { IGraphCommandService } from '../../command';
 import type { IModelService } from '../../model-service';
-import type { Graph as X6Graph, Node as X6Node, Edge as X6Edge } from '@antv/x6';
+import type { Graph as X6Graph, Node as X6Node, Edge as X6Edge } from '@tunchz/xflow/x6';
 import type { NsGraph } from '../../interface';
 interface IAppContext {
     cell: X6Node | X6Edge;

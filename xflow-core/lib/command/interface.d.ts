@@ -1,11 +1,11 @@
 import { Syringe } from 'mana-syringe';
 import type { Disposable, DisposableCollection } from '../common/disposable';
-import type { Graph as X6Graph } from '@antv/x6';
+import type { Graph as X6Graph } from '@tunchz/xflow/x6';
 import type { IGraphConfig } from '../xflow-main/graph/config';
 import type { NsModel, RxModel } from '../common/rx-model';
 import type { IModelService } from '../model-service';
 import type { IHooks } from '../command-contributions/interface';
-import type { IRuntimeHook } from '@antv/xflow-hook/es/interface';
+import type { IRuntimeHook } from '@tunchz/xflow/xflow-hook/es/interface';
 import type { NsGraph } from '../interface';
 /**
  * A command is a unique identifier of a function

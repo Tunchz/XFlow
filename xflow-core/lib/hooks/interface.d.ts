@@ -1,11 +1,11 @@
-import type { Graph } from '@antv/x6';
+import type { Graph } from '@tunchz/xflow/x6';
 import type { NsGraph } from '../interface';
 import type { Disposable } from '../common/disposable';
 import type { IGraphCommandService } from '../command/interface';
 import type { IModelService } from '../model-service/interface';
-import { HookHub } from '@antv/xflow-hook';
+import { HookHub } from '@tunchz/xflow/xflow-hook';
 import { Syringe } from 'mana-syringe';
-import type { EventArgs } from '@antv/x6/es/graph/events';
+import type { EventArgs } from '@tunchz/xflow/x6/es/graph/events';
 import type { IGraphConfig } from '../xflow-main/graph/config';
 export interface IRegisterHookFn<T = IHooks> {
     (hooks: T): Disposable;

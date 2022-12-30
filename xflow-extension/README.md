@@ -1,4 +1,4 @@
-# @antv/xflow-extension
+# @tunchz/xflow/xflow-extension
 
 ## Getting Started
 

@@ -1,7 +1,7 @@
-import type { Point, Graph as X6Graph } from '@antv/x6';
-import type { EventArgs } from '@antv/x6/lib/graph/events';
-import type { Attr } from '@antv/x6/lib/registry/attr';
-import type { PortManager } from '@antv/x6/lib/model/port';
+import type { Point, Graph as X6Graph } from '@tunchz/xflow/x6';
+import type { EventArgs } from '@tunchz/xflow/x6/lib/graph/events';
+import type { Attr } from '@tunchz/xflow/x6/lib/registry/attr';
+import type { PortManager } from '@tunchz/xflow/x6/lib/model/port';
 import type { IGraphCommandService } from './command/interface';
 import type { IModelService } from './model-service/interface';
 import type React from 'react';

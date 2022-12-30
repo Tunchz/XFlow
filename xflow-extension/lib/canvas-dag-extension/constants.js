@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.XFlowDagCommands = exports.GRAPH_STATUS_INFO = exports.NODE_DEFAULT_HEIGHT = exports.NODE_DEFAULT_WIDTH = exports.EDGE_PROCESSING_CLASSNAME = exports.XFLOW_NODE_SHAPE = exports.XFLOW_SHAPE = exports.EDGE_PATH_TYPE = void 0;
-var constant_1 = require("@antv/xflow-core/es/model-service/constant");
+var constant_1 = require("@tunchz/xflow/xflow-core/es/model-service/constant");
 exports.EDGE_PATH_TYPE = {
     /** node 水平 */
     HORIRONTAL_NODE: 'xflow-node-horizontal-edge',

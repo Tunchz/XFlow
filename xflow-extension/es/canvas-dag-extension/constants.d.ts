@@ -1,5 +1,5 @@
-import type { DisposableCollection } from '@antv/xflow-core';
-import type { IGraphCommand } from '@antv/xflow-core';
+import type { DisposableCollection } from '@tunchz/xflow/xflow-core';
+import type { IGraphCommand } from '@tunchz/xflow/xflow-core';
 export declare const EDGE_PATH_TYPE: {
     /** node 水平 */
     readonly HORIRONTAL_NODE: "xflow-node-horizontal-edge";
@@ -37,8 +37,8 @@ export declare namespace GRAPH_STATUS_INFO {
         subscription: DisposableCollection;
     }
     /** Model Utils */
-    const getModel: (modelService: import("@antv/xflow-core").IModelService) => Promise<import("@antv/xflow-core").NsModel.IModel<IState>>;
-    const useValue: (modelService: import("@antv/xflow-core").IModelService) => Promise<IState>;
+    const getModel: (modelService: import("@tunchz/xflow/xflow-core").IModelService) => Promise<import("@tunchz/xflow/xflow-core").NsModel.IModel<IState>>;
+    const useValue: (modelService: import("@tunchz/xflow/xflow-core").IModelService) => Promise<IState>;
 }
 export declare namespace XFlowDagCommands {
     const QUERY_GRAPH_STATUS: IGraphCommand;

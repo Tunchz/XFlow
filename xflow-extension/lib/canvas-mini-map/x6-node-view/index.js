@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.SimpleNodeView = void 0;
 var tslib_1 = require("tslib");
-var x6_1 = require("@antv/x6");
+var x6_1 = require("@tunchz/xflow/x6");
 var SimpleNodeView = /** @class */ (function (_super) {
     tslib_1.__extends(SimpleNodeView, _super);
     function SimpleNodeView() {

@@ -1,4 +1,4 @@
-import { getModelUtil, useModelValueUtil } from '@antv/xflow-core/es/model-service/constant';
+import { getModelUtil, useModelValueUtil } from '@tunchz/xflow/xflow-core/es/model-service/constant';
 export const EDGE_PATH_TYPE = {
     /** node 水平 */
     HORIRONTAL_NODE: 'xflow-node-horizontal-edge',

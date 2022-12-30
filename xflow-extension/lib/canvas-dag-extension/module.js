@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.createDagExtensionModule = void 0;
 var tslib_1 = require("tslib");
 require("reflect-metadata");
-var xflow_core_1 = require("@antv/xflow-core");
+var xflow_core_1 = require("@tunchz/xflow/xflow-core");
 var dag_1 = require("./contributions/dag");
 var command_1 = require("./contributions/command");
 tslib_1.__exportStar(require("./x6-extension/edge"), exports);

@@ -1,7 +1,7 @@
 import { __awaiter } from "tslib";
 import React from 'react';
 import { Tooltip } from 'antd';
-import { useXFlowApp, createComponentModel, XFlowAppExtensionModule } from '@antv/xflow-core';
+import { useXFlowApp, createComponentModel, XFlowAppExtensionModule } from '@tunchz/xflow/xflow-core';
 import { ACTIVE_NODE_PORT } from '../interface';
 import { createModule } from '../module';
 export const CONFIG_TYPE = 'CanvasNodePortTooltip';

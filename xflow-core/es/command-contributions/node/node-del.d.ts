@@ -1,9 +1,9 @@
-import { HookHub } from '@antv/xflow-hook';
+import { HookHub } from '@tunchz/xflow/xflow-hook';
 import type { NsGraph } from '../../interface';
 import type { IHooks } from '../../hooks/interface';
 import type { IArgsBase } from '../../command/interface';
 import { ICommandHandler } from '../../command/interface';
-import type { Model, Node } from '@antv/x6/es';
+import type { Model, Node } from '@tunchz/xflow/x6/es';
 declare type ICommand = ICommandHandler<NsDelNode.IArgs, NsDelNode.IResult, NsDelNode.ICmdHooks>;
 export declare namespace NsDelNode {
     /** Command: 用于注册named factory */

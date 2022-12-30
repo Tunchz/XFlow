@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.createModule = void 0;
 require("reflect-metadata");
 /** Application 扩展依赖 */
-var xflow_core_1 = require("@antv/xflow-core");
+var xflow_core_1 = require("@tunchz/xflow/xflow-core");
 var hook_1 = require("./contributions/hook");
 /** 依赖扩展模块，必须要加载 */
 var createModule = function () {

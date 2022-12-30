@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.DelNodeCommand = exports.NsDelNode = void 0;
 var tslib_1 = require("tslib");
 var mana_syringe_1 = require("mana-syringe");
-var xflow_hook_1 = require("@antv/xflow-hook");
+var xflow_hook_1 = require("@tunchz/xflow/xflow-hook");
 var interface_1 = require("../../command/interface");
 var constant_1 = require("../constant");
 var disposable_1 = require("../../common/disposable");

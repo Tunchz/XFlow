@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.ToolbarConfig = exports.CONFIG_TYPE = void 0;
-var xflow_core_1 = require("@antv/xflow-core");
+var xflow_core_1 = require("@tunchz/xflow/xflow-core");
 exports.CONFIG_TYPE = 'CanvasToolbar';
 var ToolbarConfig = /** @class */ (function () {
     /** uuid */

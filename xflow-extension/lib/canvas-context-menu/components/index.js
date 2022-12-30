@@ -3,8 +3,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.ContextMenuRender = void 0;
 var tslib_1 = require("tslib");
 var react_1 = tslib_1.__importDefault(require("react"));
-var x6_react_components_1 = require("@antv/x6-react-components");
-var xflow_core_1 = require("@antv/xflow-core");
+var x6_react_components_1 = require("@tunchz/xflow/x6-react-components");
+var xflow_core_1 = require("@tunchz/xflow/xflow-core");
 var interface_1 = require("../interface");
 var menu_1 = require("./menu");
 var DisposeHelper = function (_a) {

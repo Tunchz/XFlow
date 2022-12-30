@@ -1,8 +1,8 @@
 import { __awaiter } from "tslib";
 import React from 'react';
 import { createModule } from '../module';
-import { insertCss } from '@antv/xflow-core';
-import { XFlowAppExtensionModule, usePositionStyle } from '@antv/xflow-core';
+import { insertCss } from '@tunchz/xflow/xflow-core';
+import { XFlowAppExtensionModule, usePositionStyle } from '@tunchz/xflow/xflow-core';
 import { SimpleNodeView } from '../x6-node-view';
 /** 配置类型 */
 export const CONFIG_TYPE = 'CanvasMiniMap';

@@ -1,5 +1,5 @@
 import React from 'react';
-import type { IPosition } from '@antv/xflow-core';
+import type { IPosition } from '@tunchz/xflow/xflow-core';
 import { SimpleNodeView } from '../x6-node-view';
 import type { IMinimapOptions } from '../interface';
 /** 配置类型 */

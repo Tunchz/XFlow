@@ -3,10 +3,10 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.NodePortTooltipContribution = void 0;
 var tslib_1 = require("tslib");
 var classnames_1 = tslib_1.__importDefault(require("classnames"));
-var xflow_core_1 = require("@antv/xflow-core");
-var xflow_core_2 = require("@antv/xflow-core");
+var xflow_core_1 = require("@tunchz/xflow/xflow-core");
+var xflow_core_2 = require("@tunchz/xflow/xflow-core");
 var interface_1 = require("../interface");
-var xflow_core_3 = require("@antv/xflow-core");
+var xflow_core_3 = require("@tunchz/xflow/xflow-core");
 /**
  * 内置的hook contribution
  * 处理 config上的runtime的注册项

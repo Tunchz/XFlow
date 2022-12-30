@@ -1,5 +1,5 @@
 import { __awaiter } from "tslib";
-import { IconStore, MODELS, XFlowGraphCommands } from '@antv/xflow-core';
+import { IconStore, MODELS, XFlowGraphCommands } from '@tunchz/xflow/xflow-core';
 import { ZoomInOutlined, ZoomOutOutlined, OneToOneOutlined, CompressOutlined, FullscreenOutlined, FullscreenExitOutlined, } from '@ant-design/icons';
 import { createToolbarConfig } from '../canvas-toolbar';
 export var CANVAS_SCALE_TOOLBAR_CONFIG;

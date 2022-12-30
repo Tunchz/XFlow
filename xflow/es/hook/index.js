@@ -1,2 +1,2 @@
-export { HookHub, ScheduleTypeEnum, } from '@antv/xflow-hook';
+export { HookHub, ScheduleTypeEnum, } from '@tunchz/xflow/xflow-hook';
 //# sourceMappingURL=index.js.map

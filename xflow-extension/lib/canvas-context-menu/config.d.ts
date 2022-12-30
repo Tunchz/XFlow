@@ -1,6 +1,6 @@
 /// <reference types="react" />
-import type { IModelService, IModuleConfig, RxModel, IMenuOptions, DisposableCollection } from '@antv/xflow-core';
-import type { MODELS } from '@antv/xflow-core';
+import type { IModelService, IModuleConfig, RxModel, IMenuOptions, DisposableCollection } from '@tunchz/xflow/xflow-core';
+import type { MODELS } from '@tunchz/xflow/xflow-core';
 import type { IMenuRenderProps } from './interface';
 export declare namespace NsContextMenu {
     const CONFIG_TYPE = "ContextMenuConfig";

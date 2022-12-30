@@ -1,5 +1,5 @@
 import React from 'react';
-import { isReactComponent } from '@antv/xflow-core';
+import { isReactComponent } from '@tunchz/xflow/xflow-core';
 import { CaretRightOutlined } from '@ant-design/icons';
 import { PanelNode } from './panel-node';
 import { Empty } from 'antd';

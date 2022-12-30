@@ -1,7 +1,7 @@
 import { __awaiter, __decorate, __rest } from "tslib";
 import { singleton } from 'mana-syringe';
-import { DisposableCollection, Disposable, XFlowEdgeCommands, XFlowNodeCommands, } from '@antv/xflow-core';
-import { IHookContribution } from '@antv/xflow-core';
+import { DisposableCollection, Disposable, XFlowEdgeCommands, XFlowNodeCommands, } from '@tunchz/xflow/xflow-core';
+import { IHookContribution } from '@tunchz/xflow/xflow-core';
 import { NsAddEdgeEvent } from '../../config-graph';
 import { getProps } from '../../utils';
 /**

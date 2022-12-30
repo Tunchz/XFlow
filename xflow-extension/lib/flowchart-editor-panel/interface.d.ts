@@ -1,6 +1,6 @@
 /// <reference types="react" />
-import type { IGraphCommandService, IModelService, IPosition, NsGraph } from '@antv/xflow-core';
-import type { Cell } from '@antv/x6';
+import type { IGraphCommandService, IModelService, IPosition, NsGraph } from '@tunchz/xflow/xflow-core';
+import type { Cell } from '@tunchz/xflow/x6';
 import type { NsJsonSchemaForm } from '../canvas-json-schema-form';
 export interface IFlowchartFormPanelProps {
     style?: React.CSSProperties;

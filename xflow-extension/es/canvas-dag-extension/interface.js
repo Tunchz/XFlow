@@ -1,4 +1,4 @@
-import { ManaSyringe } from '@antv/xflow-core';
+import { ManaSyringe } from '@tunchz/xflow/xflow-core';
 /** 画布布局 */
 export var LayoutEnum;
 (function (LayoutEnum) {

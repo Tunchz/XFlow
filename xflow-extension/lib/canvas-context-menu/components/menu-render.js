@@ -3,8 +3,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.renderMenuOptions = void 0;
 var tslib_1 = require("tslib");
 var react_1 = tslib_1.__importDefault(require("react"));
-var xflow_core_1 = require("@antv/xflow-core");
-var x6_react_components_1 = require("@antv/x6-react-components");
+var xflow_core_1 = require("@tunchz/xflow/xflow-core");
+var x6_react_components_1 = require("@tunchz/xflow/x6-react-components");
 var renderMenuOptions = function (props) {
     var idx = props.idx, menuItem = props.menuOptions, target = props.target, modelService = props.modelService, commandService = props.commandService, onHide = props.onHide;
     var id = menuItem.id, label = menuItem.label, _a = menuItem.isEnabled, isEnabled = _a === void 0 ? true : _a, _b = menuItem.isVisible, isVisible = _b === void 0 ? true : _b, iconName = menuItem.iconName, _c = menuItem.submenu, submenu = _c === void 0 ? [] : _c, active = menuItem.active, hotkey = menuItem.hotkey, render = menuItem.render, onClick = menuItem.onClick;

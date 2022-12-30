@@ -4,7 +4,7 @@ exports.DagGraphExtension = void 0;
 var tslib_1 = require("tslib");
 var react_1 = tslib_1.__importDefault(require("react"));
 var module_1 = require("../module");
-var xflow_core_1 = require("@antv/xflow-core");
+var xflow_core_1 = require("@tunchz/xflow/xflow-core");
 var DagGraphExtension = function (props) {
     /** 获取扩展Registry */
     var extensionRegistry = (0, xflow_core_1.useExtensionRegistry)();

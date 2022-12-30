@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.initHooks = exports.IHookContribution = exports.IHookService = void 0;
-var xflow_hook_1 = require("@antv/xflow-hook");
+var xflow_hook_1 = require("@tunchz/xflow/xflow-hook");
 var mana_syringe_1 = require("mana-syringe");
 /**
  * extension 应该实现这个扩展点来注册更多的hook

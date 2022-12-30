@@ -1,7 +1,7 @@
 import { __awaiter } from "tslib";
 import React from 'react';
-import { useXFlowApp, getNodeReactComponent } from '@antv/xflow-core';
-import { Addon } from '@antv/x6';
+import { useXFlowApp, getNodeReactComponent } from '@tunchz/xflow/xflow-core';
+import { Addon } from '@tunchz/xflow/x6';
 import { XFlowNode } from '../../canvas-dag-extension/x6-extension/node';
 export const defaultNodeFactory = (args) => {
     return new XFlowNode(args);

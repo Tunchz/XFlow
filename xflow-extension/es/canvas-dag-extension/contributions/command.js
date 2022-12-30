@@ -1,5 +1,5 @@
 import { __awaiter, __decorate, __metadata } from "tslib";
-import { ManaSyringe, ICommandHandler, ICommandContextProvider, delay } from '@antv/xflow-core';
+import { ManaSyringe, ICommandHandler, ICommandContextProvider, delay } from '@tunchz/xflow/xflow-core';
 import { XFlowDagCommands, GRAPH_STATUS_INFO, EDGE_PROCESSING_CLASSNAME } from '../constants';
 export var NsGraphStatusCommand;
 (function (NsGraphStatusCommand) {

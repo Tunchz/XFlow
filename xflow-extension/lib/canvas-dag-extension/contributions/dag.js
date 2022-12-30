@@ -2,9 +2,9 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.DagHooksContribution = exports.getDagOptions = exports.ANT_PREFIX = exports.DAG_DEFAULT_CONIFG = exports.NsAddEdgeEvent = void 0;
 var tslib_1 = require("tslib");
-var xflow_core_1 = require("@antv/xflow-core");
-var xflow_core_2 = require("@antv/xflow-core");
-var xflow_hook_1 = require("@antv/xflow-hook");
+var xflow_core_1 = require("@tunchz/xflow/xflow-core");
+var xflow_core_2 = require("@tunchz/xflow/xflow-core");
+var xflow_hook_1 = require("@tunchz/xflow/xflow-hook");
 var node_1 = require("../x6-extension/node");
 var edge_1 = require("../x6-extension/edge");
 var constants_1 = require("../constants");

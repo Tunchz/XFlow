@@ -13,7 +13,7 @@ import { registerEdgeCommand, hookhubList as edgeHooks } from './edge';
 import { registerGroupCommand, hookhubList as groupHooks } from './group';
 import { registerModelServiceCommand, hookhubList as observablesHooks } from './models';
 /** Command Hooks*/
-import { HookHub } from '@antv/xflow-hook';
+import { HookHub } from '@tunchz/xflow/xflow-hook';
 import { CommandConfig } from './config';
 /** Commands 配置项目*/
 const hookhubList = [...nodeHooks, ...edgeHooks, ...groupHooks, ...graphHooks, ...observablesHooks];

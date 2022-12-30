@@ -4,7 +4,7 @@ exports.createFlowExtensionModule = void 0;
 var tslib_1 = require("tslib");
 require("reflect-metadata");
 /** Application 扩展依赖 */
-var xflow_core_1 = require("@antv/xflow-core");
+var xflow_core_1 = require("@tunchz/xflow/xflow-core");
 var flow_1 = require("./contributions/flow");
 tslib_1.__exportStar(require("./x6-extension/node"), exports);
 /** 依赖扩展模块，必须要加载 */

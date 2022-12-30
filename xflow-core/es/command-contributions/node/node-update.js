@@ -1,10 +1,10 @@
 import { __awaiter, __decorate, __metadata } from "tslib";
 import { inject, injectable, postConstruct } from 'mana-syringe';
-import { Node as X6Node } from '@antv/x6';
+import { Node as X6Node } from '@tunchz/xflow/x6';
 import isBoolean from 'lodash/isBoolean';
 import { XFlowNodeCommands } from '../constant';
 import { ICommandHandler, ICommandContextProvider } from '../../command/interface';
-import { ReactShape } from '@antv/x6-react-shape';
+import { ReactShape } from '@tunchz/xflow/x6-react-shape';
 export var NsUpdateNode;
 (function (NsUpdateNode) {
     NsUpdateNode.command = XFlowNodeCommands.UPDATE_NODE;

@@ -1,9 +1,9 @@
 import React from 'react';
 import { Spin } from 'antd';
 import classnames from 'classnames';
-import { usePositionStyle } from '@antv/xflow-core';
+import { usePositionStyle } from '@tunchz/xflow/xflow-core';
 // component
-import { Toolbar } from '@antv/x6-react-components';
+import { Toolbar } from '@tunchz/xflow/x6-react-components';
 import { ToolbarGroup } from './toolbar-group';
 import { useToolbarModel } from '../service';
 import classNames from 'classnames';

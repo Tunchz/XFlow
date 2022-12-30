@@ -1,7 +1,7 @@
-import type { Addon } from '@antv/x6';
-import type { IPosition, NsGraph, IModelService, MODELS, IGraphCommandService } from '@antv/xflow-core';
+import type { Addon } from '@tunchz/xflow/x6';
+import type { IPosition, NsGraph, IModelService, MODELS, IGraphCommandService } from '@tunchz/xflow/xflow-core';
 import type React from 'react';
-import type { Node as X6Node } from '@antv/x6';
+import type { Node as X6Node } from '@tunchz/xflow/x6';
 /** panel 布局 */
 export interface ILayoutProps {
     /** header */
@@ -129,5 +129,5 @@ export declare namespace NsCollapsePanelModel {
         /** 搜索结果 */
         searchResult: IPanelNode[];
     }
-    const useModel: (model: IModelService) => Promise<import("@antv/xflow-core").NsModel.IModel<IState>>;
+    const useModel: (model: IModelService) => Promise<import("@tunchz/xflow/xflow-core").NsModel.IModel<IState>>;
 }

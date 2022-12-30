@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.GraphLayoutCommand = exports.NsGraphLayout = void 0;
 var tslib_1 = require("tslib");
 var mana_syringe_1 = require("mana-syringe");
-var AntvLayout = tslib_1.__importStar(require("@antv/layout"));
+var AntvLayout = tslib_1.__importStar(require("@tunchz/xflow/layout"));
 var interface_1 = require("../../command/interface");
 var constant_1 = require("../constant");
 /** 画布图数据执行布局算法命令 */
