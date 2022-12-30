@@ -1,8 +1,8 @@
-import { Graph, FunctionExt } from '@antv/x6'
+import { Graph, FunctionExt } from '@tunchz/xflow/x6'
 import { registry, Definition } from './registry'
 import { ReactShape } from './node'
 
-declare module '@antv/x6/lib/graph/hook' {
+declare module '@tunchz/xflow/x6/lib/graph/hook' {
   namespace Hook {
     interface IHook {
       getReactComponent(this: Graph, node: ReactShape): Definition

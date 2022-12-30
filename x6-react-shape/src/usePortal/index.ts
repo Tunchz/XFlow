@@ -1,7 +1,7 @@
 import React, { useState, useCallback, useLayoutEffect, useRef } from 'react'
 import ReactDOM from 'react-dom'
-import type { Graph, Cell } from '@antv/x6'
-import { NodeView } from '@antv/x6'
+import type { Graph, Cell } from '@tunchz/xflow/x6'
+import { NodeView } from '@tunchz/xflow/x6'
 import type { ReactShape } from '../node'
 import { Wrap } from '../wrap'
 

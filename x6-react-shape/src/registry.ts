@@ -1,4 +1,4 @@
-import { Graph, Node, Registry } from '@antv/x6'
+import { Graph, Node, Registry } from '@tunchz/xflow/x6'
 
 export type Definition =
   | ((this: Graph, node: Node) => React.ReactElement | null | undefined)
@@ -8,7 +8,7 @@ export const registry = Registry.create<Definition>({
   type: 'react componnet',
 })
 
-declare module '@antv/x6/lib/graph/graph' {
+declare module '@tunchz/xflow/x6/lib/graph/graph' {
   // eslint-disable-next-line @typescript-eslint/no-shadow
   namespace Graph {
     let registerReactComponent: typeof registry.register

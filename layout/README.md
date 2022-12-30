@@ -6,16 +6,16 @@ Layout algorithms for AntV
 
 ```shell
 # npm
-$ npm install @antv/layout --save
+$ npm install @tunchz/xflow/layout --save
 
 # yarn
-$ yarn add @antv/layout
+$ yarn add @tunchz/xflow/layout
 ```
 
 ## Usage
 
 ```ts
-import { GridLayout } from '@antv/layout'
+import { GridLayout } from '@tunchz/xflow/layout'
 
 const model = {
   nodes: [

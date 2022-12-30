@@ -10,8 +10,8 @@
 <a href="https://github.com/antvis/X6/actions/workflows/ci.yml"><img alt="build" src="https://img.shields.io/github/workflow/status/antvis/x6/%F0%9F%91%B7%E3%80%80CI/master?logo=github&style=flat-square"></a>
 <a href="https://app.codecov.io/gh/antvis/X6"><img alt="coverage" src="https://img.shields.io/codecov/c/gh/antvis/x6?logo=codecov&style=flat-square&token=15CO54WYUV"></a>
 <a href="https://lgtm.com/projects/g/antvis/x6/context:javascript"><img alt="Language grade: JavaScript" src="https://img.shields.io/lgtm/grade/javascript/g/antvis/x6.svg?logo=lgtm&style=flat-square"></a>
-<a href="https://www.npmjs.com/package/@antv/x6"><img alt="NPM Package" src="https://img.shields.io/npm/v/@antv/x6.svg?style=flat-square"></a>
-<a href="https://www.npmjs.com/package/@antv/x6"><img alt="NPM Downloads" src="https://img.shields.io/npm/dm/@antv/x6?logo=npm&style=flat-square"></a>
+<a href="https://www.npmjs.com/package/@tunchz/xflow/x6"><img alt="NPM Package" src="https://img.shields.io/npm/v/@tunchz/xflow/x6.svg?style=flat-square"></a>
+<a href="https://www.npmjs.com/package/@tunchz/xflow/x6"><img alt="NPM Downloads" src="https://img.shields.io/npm/dm/@tunchz/xflow/x6?logo=npm&style=flat-square"></a>
 </p>
 
 <p align="center">
@@ -35,32 +35,32 @@
 
 ```shell
 # npm
-$ npm install @antv/x6 --save
+$ npm install @tunchz/xflow/x6 --save
 
 # yarn
-$ yarn add @antv/x6
+$ yarn add @tunchz/xflow/x6
 ```
 
 ### 使用 CDN
 
 可以使用下面任意一个最新版本的 CDN 地址:
 
-- https://unpkg.com/@antv/x6/dist/x6.js
-- https://cdn.jsdelivr.net/npm/@antv/x6/dist/x6.js
+- https://unpkg.com/@tunchz/xflow/x6/dist/x6.js
+- https://cdn.jsdelivr.net/npm/@tunchz/xflow/x6/dist/x6.js
 - https://cdnjs.cloudflare.com/ajax/libs/antv-x6/1.3.20/x6.js
 
 ```html
-<script src="https://unpkg.com/@antv/x6/dist/x6.js"></script>
+<script src="https://unpkg.com/@tunchz/xflow/x6/dist/x6.js"></script>
 ```
 
 在生产环境中，建议使用指定版本号的链接，以避免版本更新带来的意外破坏：
 
-- https://unpkg.com/@antv/x6@1.1.1/dist/x6.js
-- https://cdn.jsdelivr.net/npm/@antv/x6@1.1.1/dist/x6.js
+- https://unpkg.com/@tunchz/xflow/x6@1.1.1/dist/x6.js
+- https://cdn.jsdelivr.net/npm/@tunchz/xflow/x6@1.1.1/dist/x6.js
 - https://cdnjs.cloudflare.com/ajax/libs/antv-x6/1.1.1/x6.js
 
 ```html
-<script src="https://unpkg.com/@antv/x6@1.1.1/dist/x6.js"></script>
+<script src="https://unpkg.com/@tunchz/xflow/x6@1.1.1/dist/x6.js"></script>
 ```
 
 ## 快速使用
@@ -75,7 +75,7 @@ $ yarn add @antv/x6
 
 ```ts
 // 从 node_modules 引入
-import { Graph } from '@antv/x6'
+import { Graph } from '@tunchz/xflow/x6'
 // 从 CDN 引入时，我们暴露了 X6 这个全局变量
 // const { Graph } = X6
 

@@ -1,4 +1,4 @@
-# @antv/x6-react-shape
+# @tunchz/xflow/x6-react-shape
 
 > x6 shape for rendering react components
 
@@ -6,17 +6,17 @@
 
 ```shell
 # npm
-$ npm install @antv/x6-react-shape --save
+$ npm install @tunchz/xflow/x6-react-shape --save
 
 # yarn
-$ yarn add @antv/x6-react-shape
+$ yarn add @tunchz/xflow/x6-react-shape
 ```
 
 ## Usage
 
 ```ts
-import { Graph } from '@antv/x6'
-import '@antv/x6-react-shape'
+import { Graph } from '@tunchz/xflow/x6'
+import '@tunchz/xflow/x6-react-shape'
 
 // render
 graph.addNode({

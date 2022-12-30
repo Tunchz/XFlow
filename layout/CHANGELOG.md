@@ -46,7 +46,7 @@
 
 #### 0.1.20
 
-- chore: migrate dagre from https://github.com/brickmaker/dagre to @antv/layout and re-write in es6 standard;
+- chore: migrate dagre from https://github.com/brickmaker/dagre to @tunchz/xflow/layout and re-write in es6 standard;
 - chore: fruchterman cluster re-computing problem;
 - feat: dagre supports begin position for the layout;
 

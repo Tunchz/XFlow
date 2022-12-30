@@ -1,5 +1,5 @@
 {
-  "name": "@antv/x6-react-shape",
+  "name": "@tunchz/xflow/x6-react-shape",
   "version": "1.6.3",
   "description": "X6 shape for rendering react components.",
   "main": "lib/index.js",
@@ -41,13 +41,13 @@
     ]
   },
   "inherits": [
-    "@antv/x6-package-json/cli.json",
-    "@antv/x6-package-json/react.json",
-    "@antv/x6-package-json/eslint.json",
-    "@antv/x6-package-json/rollup.json"
+    "@tunchz/xflow/x6-package-json/cli.json",
+    "@tunchz/xflow/x6-package-json/react.json",
+    "@tunchz/xflow/x6-package-json/eslint.json",
+    "@tunchz/xflow/x6-package-json/rollup.json"
   ],
   "peerDependencies": {
-    "@antv/x6": ">=1.0.0",
+    "@tunchz/xflow/x6": ">=1.0.0",
     "react": ">=16.8.6 || >=17.0.0",
     "react-dom": ">=16.8.6 || >=17.0.0"
   },

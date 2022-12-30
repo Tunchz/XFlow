@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { NodeView, Scheduler } from '@antv/x6'
+import { NodeView, Scheduler } from '@tunchz/xflow/x6'
 import { ReactShape } from './node'
 import { Portal } from './portal'
 import { Wrap } from './wrap'
