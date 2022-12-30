@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "target": "es6",
+    "module": "CommonJS",
+    "lib": ["ESNext", "DOM"] /* Specify library files to be included in the compilation. */,
+    "moduleResolution": "node",
+    "strict": false,
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "declaration": true,
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "noErrorTruncation": true,
+    "importHelpers": true,
+    "allowSyntheticDefaultImports": true,
+    "emitDecoratorMetadata": true
+  },
+  "include": ["packages/**/src", "packages/**/docs", "typings.d.ts"],
+  "exclude": [".eslintrc.js", "node_modules", "**/es/**/*", "**/lib/**/*", "**/jest.config.js"]
+}
