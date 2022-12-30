@@ -1,7 +1,7 @@
-import { Graph } from '@antv/x6';
+import { Graph } from '@tunchz/xflow/x6';
 import { Definition } from './registry';
 import { ReactShape } from './node';
-declare module '@antv/x6/lib/graph/hook' {
+declare module '@tunchz/xflow/x6/lib/graph/hook' {
     namespace Hook {
         interface IHook {
             getReactComponent(this: Graph, node: ReactShape): Definition;

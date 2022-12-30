@@ -1,4 +1,4 @@
-import { BufferData, Entity, GeometryComponent, MaterialComponent, MeshComponent, TransformComponent } from '@antv/g-webgpu-core';
+import { BufferData, Entity, GeometryComponent, MaterialComponent, MeshComponent, TransformComponent } from '@tunchz/xflow/g-webgpu-core';
 export interface IRenderable<T> {
     setConfig(config: T): void;
     setAttributes(attributes: Record<string, BufferData | undefined>): void;

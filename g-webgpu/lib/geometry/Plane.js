@@ -17,7 +17,7 @@ var _possibleConstructorReturn2 = _interopRequireDefault(require("@babel/runtime
 
 var _getPrototypeOf2 = _interopRequireDefault(require("@babel/runtime/helpers/getPrototypeOf"));
 
-var _gWebgpuCore = require("@antv/g-webgpu-core");
+var _gWebgpuCore = require("@tunchz/xflow/g-webgpu-core");
 
 var _inversify = require("inversify");
 

@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.registry = void 0;
-var x6_1 = require("@antv/x6");
+var x6_1 = require("@tunchz/xflow/x6");
 exports.registry = x6_1.Registry.create({
     type: 'react componnet',
 });

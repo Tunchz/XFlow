@@ -1,4 +1,4 @@
-import { BufferData, IBuffer, IElements, IElementsInitializationOptions } from '@antv/g-webgpu-core';
+import { BufferData, IBuffer, IElements, IElementsInitializationOptions } from '@tunchz/xflow/g-webgpu-core';
 import { WebGPUEngine } from '.';
 export default class WebGPUElements implements IElements {
     private engine;

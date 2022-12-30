@@ -1,4 +1,4 @@
-# @antv/g-webgpu-engine
+# @tunchz/xflow/g-webgpu-engine
 
 * implements render engine's interface with WebGPU/WebGL
 

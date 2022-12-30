@@ -1,4 +1,4 @@
-import { Node, Markup, ObjectExt } from '@antv/x6';
+import { Node, Markup, ObjectExt } from '@tunchz/xflow/x6';
 export class ReactShape extends Node {
     get component() {
         return this.getComponent();

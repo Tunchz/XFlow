@@ -60,7 +60,7 @@ exports.FruchtermanGPULayout = void 0;
 var base_1 = require("../base");
 var util_1 = require("../../util");
 // @ts-ignore
-var g_webgpu_1 = require("@antv/g-webgpu");
+var g_webgpu_1 = require("@tunchz/xflow/g-webgpu");
 // compile at runtime in dev mode
 var gpu_1 = require("../../util/gpu");
 // use compiled bundle in prod mode

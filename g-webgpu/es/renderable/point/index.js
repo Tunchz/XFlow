@@ -20,7 +20,7 @@ function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflec
 
 function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
 
-import { gl, IDENTIFIER } from '@antv/g-webgpu-core';
+import { gl, IDENTIFIER } from '@tunchz/xflow/g-webgpu-core';
 import { inject, injectable, named } from 'inversify';
 import { encodePickingColor } from '../../utils/picking';
 import { Renderable } from '../Renderable';

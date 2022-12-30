@@ -1,4 +1,4 @@
-import { IElements, IElementsInitializationOptions } from '@antv/g-webgpu-core';
+import { IElements, IElementsInitializationOptions } from '@tunchz/xflow/g-webgpu-core';
 import regl from 'regl';
 /**
  * @see https://github.com/regl-project/regl/blob/gh-pages/API.md#elements

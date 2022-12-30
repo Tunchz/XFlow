@@ -1,4 +1,4 @@
-import { BufferData } from '@antv/g-webgpu-core';
+import { BufferData } from '@tunchz/xflow/g-webgpu-core';
 import { Renderable } from '../Renderable';
 interface ILineConfig {
     id: number;

@@ -11,7 +11,7 @@ function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflec
 
 function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
 
-import { AABB } from '@antv/g-webgpu-core';
+import { AABB } from '@tunchz/xflow/g-webgpu-core';
 import { injectable } from 'inversify';
 import { Geometry } from '.';
 import { isNumber } from '../utils/is-number';

@@ -27,7 +27,7 @@ var __assign = (this && this.__assign) || function () {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.ReactShape = void 0;
-var x6_1 = require("@antv/x6");
+var x6_1 = require("@tunchz/xflow/x6");
 var ReactShape = /** @class */ (function (_super) {
     __extends(ReactShape, _super);
     function ReactShape() {

@@ -9,7 +9,7 @@ var _dec, _class, _temp;
  * render w/ regl
  * @see https://github.com/regl-project/regl/blob/gh-pages/API.md
  */
-import { gl } from '@antv/g-webgpu-core';
+import { gl } from '@tunchz/xflow/g-webgpu-core';
 import { injectable } from 'inversify';
 import regl from 'regl';
 import ReglAttribute from './ReglAttribute';

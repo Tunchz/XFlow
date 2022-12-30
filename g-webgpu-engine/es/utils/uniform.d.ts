@@ -1,4 +1,4 @@
-import { IUniform } from '@antv/g-webgpu-core';
+import { IUniform } from '@tunchz/xflow/g-webgpu-core';
 /**
  * 考虑结构体命名, eg:
  * a: { b: 1 }  ->  'a.b'

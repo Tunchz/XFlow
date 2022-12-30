@@ -1,5 +1,5 @@
 /// <reference types="@webgpu/types" />
-import { BufferData, IBuffer, IBufferInitializationOptions } from '@antv/g-webgpu-core';
+import { BufferData, IBuffer, IBufferInitializationOptions } from '@tunchz/xflow/g-webgpu-core';
 import { WebGPUEngine } from '.';
 export default class WebGPUBuffer implements IBuffer {
     private engine;

@@ -1,6 +1,6 @@
 import _classCallCheck from "@babel/runtime/helpers/classCallCheck";
 import _createClass from "@babel/runtime/helpers/createClass";
-import { gl } from '@antv/g-webgpu-core';
+import { gl } from '@tunchz/xflow/g-webgpu-core';
 import { colorSpaceMap, dataTypeMap, filterMap, formatMap, mipmapMap, wrapModeMap } from './constants';
 /**
  * adaptor for regl.Buffer

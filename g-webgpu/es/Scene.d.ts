@@ -1,4 +1,4 @@
-import { IScene } from '@antv/g-webgpu-core';
+import { IScene } from '@tunchz/xflow/g-webgpu-core';
 import { Renderable } from '.';
 export declare class Scene implements IScene {
     private entities;

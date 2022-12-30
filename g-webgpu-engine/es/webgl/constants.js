@@ -5,7 +5,7 @@ var _primitiveMap, _usageMap, _dataTypeMap, _formatMap, _mipmapMap, _filterMap, 
 /**
  * @desc 由于 regl 使用大量字符串而非 WebGL 常量，因此需要映射
  */
-import { gl } from '@antv/g-webgpu-core';
+import { gl } from '@tunchz/xflow/g-webgpu-core';
 // @see https://github.com/regl-project/regl/blob/gh-pages/lib/constants/primitives.json
 export var primitiveMap = (_primitiveMap = {}, _defineProperty(_primitiveMap, gl.POINTS, 'points'), _defineProperty(_primitiveMap, gl.LINES, 'lines'), _defineProperty(_primitiveMap, gl.LINE_LOOP, 'line loop'), _defineProperty(_primitiveMap, gl.LINE_STRIP, 'line strip'), _defineProperty(_primitiveMap, gl.TRIANGLES, 'triangles'), _defineProperty(_primitiveMap, gl.TRIANGLE_FAN, 'triangle fan'), _defineProperty(_primitiveMap, gl.TRIANGLE_STRIP, 'triangle strip'), _primitiveMap);
 export var usageMap = (_usageMap = {}, _defineProperty(_usageMap, gl.STATIC_DRAW, 'static'), _defineProperty(_usageMap, gl.DYNAMIC_DRAW, 'dynamic'), _defineProperty(_usageMap, gl.STREAM_DRAW, 'stream'), _usageMap);

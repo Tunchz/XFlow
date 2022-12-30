@@ -1,5 +1,5 @@
 /// <reference types="@webgpu/types" />
-import { BufferData, IAttribute, IAttributeInitializationOptions } from '@antv/g-webgpu-core';
+import { BufferData, IAttribute, IAttributeInitializationOptions } from '@tunchz/xflow/g-webgpu-core';
 import { WebGPUEngine } from '.';
 export default class WebGPUAttribute implements IAttribute {
     private engine;

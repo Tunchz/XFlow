@@ -1,4 +1,4 @@
-import { NodeView } from '@antv/x6';
+import { NodeView } from '@tunchz/xflow/x6';
 import { ReactShape } from './node';
 export declare class ReactShapeView extends NodeView<ReactShape> {
     protected init(): void;

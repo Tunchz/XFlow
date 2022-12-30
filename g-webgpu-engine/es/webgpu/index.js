@@ -10,7 +10,7 @@ var _dec, _class, _temp;
  * @see https://webgpu.io/
  * @see https://github.com/BabylonJS/Babylon.js/blob/WebGPU/src/Engines/webgpuEngine.ts
  */
-import { isSafari } from '@antv/g-webgpu-core'; // import { Glslang } from '@webgpu/glslang/dist/web-devel/glslang.onefile';
+import { isSafari } from '@tunchz/xflow/g-webgpu-core'; // import { Glslang } from '@webgpu/glslang/dist/web-devel/glslang.onefile';
 
 import * as WebGPUConstants from '@webgpu/types/dist/constants';
 import { injectable } from 'inversify';

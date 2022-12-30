@@ -15,7 +15,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 import { Base } from "../base";
 import { isNumber } from "../../util";
 // @ts-ignore
-import { World } from "@antv/g-webgpu";
+import { World } from "@tunchz/xflow/g-webgpu";
 import { proccessToFunc, buildTextureDataWithTwoEdgeAttr, arrayToTextureData } from "../../util/gpu";
 import { getDegree } from "../../util/math";
 import { gForceBundle, aveMovementBundle } from "./gForceShader";

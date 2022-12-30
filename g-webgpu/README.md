@@ -1,7 +1,7 @@
-# @antv/g-webgpu
+# @tunchz/xflow/g-webgpu
 
 ```typescript
-import { World } from '@antv/g-webgpu';
+import { World } from '@tunchz/xflow/g-webgpu';
 
 const canvas = document.getElementById('application');
 

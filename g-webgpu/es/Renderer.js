@@ -14,7 +14,7 @@ function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o =
 
 function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
 
-import { IDENTIFIER } from '@antv/g-webgpu-core'; // tslint:disable-next-line:no-submodule-imports
+import { IDENTIFIER } from '@tunchz/xflow/g-webgpu-core'; // tslint:disable-next-line:no-submodule-imports
 
 import * as WebGPUConstants from '@webgpu/types/dist/constants';
 import { inject, injectable } from 'inversify';

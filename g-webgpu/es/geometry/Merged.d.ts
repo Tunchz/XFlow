@@ -1,4 +1,4 @@
-import { GeometryComponent } from '@antv/g-webgpu-core';
+import { GeometryComponent } from '@tunchz/xflow/g-webgpu-core';
 import { Geometry } from '.';
 export interface IMergedGeometryParams {
     geometries: GeometryComponent[];

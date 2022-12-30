@@ -1,5 +1,5 @@
 import React from 'react';
-import { FunctionExt } from '@antv/x6';
+import { FunctionExt } from '@tunchz/xflow/x6';
 export class Wrap extends React.PureComponent {
     constructor(props) {
         super(props);

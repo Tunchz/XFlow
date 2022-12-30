@@ -1,4 +1,4 @@
-import { ITexture2D, ITexture2DInitializationOptions } from '@antv/g-webgpu-core';
+import { ITexture2D, ITexture2DInitializationOptions } from '@tunchz/xflow/g-webgpu-core';
 import regl from 'regl';
 /**
  * adaptor for regl.Buffer

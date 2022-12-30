@@ -1,5 +1,5 @@
 /// <reference types="@webgpu/types" />
-import { ITexture2D, ITexture2DInitializationOptions } from '@antv/g-webgpu-core';
+import { ITexture2D, ITexture2DInitializationOptions } from '@tunchz/xflow/g-webgpu-core';
 import { WebGPUEngine } from '.';
 /**
  * adaptor for regl.Buffer

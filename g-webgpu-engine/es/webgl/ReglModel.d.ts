@@ -1,4 +1,4 @@
-import { IModel, IModelDrawOptions, IModelInitializationOptions, IUniform } from '@antv/g-webgpu-core';
+import { IModel, IModelDrawOptions, IModelInitializationOptions, IUniform } from '@tunchz/xflow/g-webgpu-core';
 import regl from 'regl';
 /**
  * adaptor for regl.DrawCommand

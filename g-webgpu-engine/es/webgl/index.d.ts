@@ -2,7 +2,7 @@
  * render w/ regl
  * @see https://github.com/regl-project/regl/blob/gh-pages/API.md
  */
-import { GLSLContext, IAttribute, IAttributeInitializationOptions, IBuffer, IBufferInitializationOptions, IClearOptions, IComputeModel, IElements, IElementsInitializationOptions, IFramebuffer, IFramebufferInitializationOptions, IModel, IModelInitializationOptions, IReadPixelsOptions, IRendererConfig, IRendererService, ITexture2D, ITexture2DInitializationOptions } from '@antv/g-webgpu-core';
+import { GLSLContext, IAttribute, IAttributeInitializationOptions, IBuffer, IBufferInitializationOptions, IClearOptions, IComputeModel, IElements, IElementsInitializationOptions, IFramebuffer, IFramebufferInitializationOptions, IModel, IModelInitializationOptions, IReadPixelsOptions, IRendererConfig, IRendererService, ITexture2D, ITexture2DInitializationOptions } from '@tunchz/xflow/g-webgpu-core';
 import ReglFramebuffer from './ReglFramebuffer';
 /**
  * regl renderer

@@ -1,5 +1,5 @@
 /// <reference types="@webgpu/types" />
-import { IFramebuffer, IFramebufferInitializationOptions } from '@antv/g-webgpu-core';
+import { IFramebuffer, IFramebufferInitializationOptions } from '@tunchz/xflow/g-webgpu-core';
 import { WebGPUEngine } from '.';
 export default class WebGPUFramebuffer implements IFramebuffer {
     private engine;

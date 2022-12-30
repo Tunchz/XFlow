@@ -1,4 +1,4 @@
-import { Node } from '@antv/x6';
+import { Node } from '@tunchz/xflow/x6';
 import { Definition } from './registry';
 export declare class ReactShape<Properties extends ReactShape.Properties = ReactShape.Properties> extends Node<Properties> {
     get component(): ReactShape.Properties['component'];

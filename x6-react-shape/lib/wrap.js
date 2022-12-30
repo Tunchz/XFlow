@@ -20,7 +20,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Wrap = void 0;
 var react_1 = __importDefault(require("react"));
-var x6_1 = require("@antv/x6");
+var x6_1 = require("@tunchz/xflow/x6");
 var Wrap = /** @class */ (function (_super) {
     __extends(Wrap, _super);
     function Wrap(props) {

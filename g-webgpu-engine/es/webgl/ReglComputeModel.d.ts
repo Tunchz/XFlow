@@ -1,4 +1,4 @@
-import { GLSLContext, IComputeModel } from '@antv/g-webgpu-core';
+import { GLSLContext, IComputeModel } from '@tunchz/xflow/g-webgpu-core';
 import regl from 'regl';
 /**
  * adaptor for regl.DrawCommand

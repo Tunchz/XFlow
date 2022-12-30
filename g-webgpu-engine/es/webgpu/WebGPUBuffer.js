@@ -1,6 +1,6 @@
 import _classCallCheck from "@babel/runtime/helpers/classCallCheck";
 import _createClass from "@babel/runtime/helpers/createClass";
-import { isSafari } from '@antv/g-webgpu-core';
+import { isSafari } from '@tunchz/xflow/g-webgpu-core';
 import * as WebGPUConstants from '@webgpu/types/dist/constants';
 
 var WebGPUBuffer = /*#__PURE__*/function () {

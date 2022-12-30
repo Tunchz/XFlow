@@ -4,7 +4,7 @@
  * @see https://webgpu.io/
  * @see https://github.com/BabylonJS/Babylon.js/blob/WebGPU/src/Engines/webgpuEngine.ts
  */
-import { GLSLContext, IAttribute, IAttributeInitializationOptions, IBuffer, IBufferInitializationOptions, IClearOptions, IElements, IElementsInitializationOptions, IFramebuffer, IFramebufferInitializationOptions, IModel, IModelInitializationOptions, IReadPixelsOptions, IRendererConfig, IRendererService, ITexture2D, ITexture2DInitializationOptions } from '@antv/g-webgpu-core';
+import { GLSLContext, IAttribute, IAttributeInitializationOptions, IBuffer, IBufferInitializationOptions, IClearOptions, IElements, IElementsInitializationOptions, IFramebuffer, IFramebufferInitializationOptions, IModel, IModelInitializationOptions, IReadPixelsOptions, IRendererConfig, IRendererService, ITexture2D, ITexture2DInitializationOptions } from '@tunchz/xflow/g-webgpu-core';
 import WebGPUComputeModel from './WebGPUComputeModel';
 import WebGPUFramebuffer from './WebGPUFramebuffer';
 /**

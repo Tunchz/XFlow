@@ -1,4 +1,4 @@
-import { Graph, Registry } from '@antv/x6';
+import { Graph, Registry } from '@tunchz/xflow/x6';
 export const registry = Registry.create({
     type: 'react componnet',
 });

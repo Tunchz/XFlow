@@ -1,5 +1,5 @@
 import React from 'react';
-import { Graph } from '@antv/x6';
+import { Graph } from '@tunchz/xflow/x6';
 import { ReactShape } from './node';
 import { Definition } from './registry';
 export declare class Wrap extends React.PureComponent<Wrap.Props, Wrap.State> {
@@ -11,7 +11,7 @@ export declare class Wrap extends React.PureComponent<Wrap.Props, Wrap.State> {
     componentDidMount(): void;
     componentWillUnmount(): void;
     clone(elem: React.ReactElement): React.ReactElement<any, string | React.JSXElementConstructor<any>>;
-    render(): React.ReactElement<any, string | React.JSXElementConstructor<any>> | ((this: Graph, node: import("@antv/x6").Node<import("@antv/x6").Node.Properties>) => React.ReactElement<any, string | React.JSXElementConstructor<any>> | null | undefined);
+    render(): React.ReactElement<any, string | React.JSXElementConstructor<any>> | ((this: Graph, node: import("@tunchz/xflow/x6").Node<import("@tunchz/xflow/x6").Node.Properties>) => React.ReactElement<any, string | React.JSXElementConstructor<any>> | null | undefined);
 }
 export declare namespace Wrap {
     interface State {

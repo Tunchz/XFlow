@@ -1,6 +1,6 @@
 import _classCallCheck from "@babel/runtime/helpers/classCallCheck";
 import _createClass from "@babel/runtime/helpers/createClass";
-import { gl } from '@antv/g-webgpu-core';
+import { gl } from '@tunchz/xflow/g-webgpu-core';
 import * as WebGPUConstants from '@webgpu/types/dist/constants';
 import { filterMap, formatMap, wrapModeMap } from './constants';
 /**

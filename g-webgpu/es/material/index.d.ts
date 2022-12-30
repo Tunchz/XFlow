@@ -1,4 +1,4 @@
-import { Entity, MaterialComponent } from '@antv/g-webgpu-core';
+import { Entity, MaterialComponent } from '@tunchz/xflow/g-webgpu-core';
 export interface IMaterial<T> {
     setConfig(config: T): void;
 }

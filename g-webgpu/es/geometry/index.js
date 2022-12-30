@@ -6,7 +6,7 @@ import _initializerWarningHelper from "@babel/runtime/helpers/initializerWarning
 
 var _dec, _dec2, _class, _class2, _descriptor, _class3, _temp;
 
-import { IDENTIFIER } from '@antv/g-webgpu-core';
+import { IDENTIFIER } from '@tunchz/xflow/g-webgpu-core';
 import { inject, injectable } from 'inversify';
 export var Geometry = (_dec = injectable(), _dec2 = inject(IDENTIFIER.GeometryComponentManager), _dec(_class = (_class2 = (_temp = _class3 = /*#__PURE__*/function () {
   function Geometry() {

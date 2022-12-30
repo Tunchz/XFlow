@@ -1,4 +1,4 @@
-import { ITexture2D, ITexture2DInitializationOptions } from '@antv/g-webgpu-core';
+import { ITexture2D, ITexture2DInitializationOptions } from '@tunchz/xflow/g-webgpu-core';
 export declare class Texture2D {
     private readonly textureCache;
     private readonly engine;

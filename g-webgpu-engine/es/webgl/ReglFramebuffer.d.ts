@@ -1,4 +1,4 @@
-import { IFramebuffer, IFramebufferInitializationOptions } from '@antv/g-webgpu-core';
+import { IFramebuffer, IFramebufferInitializationOptions } from '@tunchz/xflow/g-webgpu-core';
 import regl from 'regl';
 /**
  * adaptor for regl.Framebuffer

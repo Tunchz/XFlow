@@ -15,7 +15,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 import { Base } from "../base";
 import { isNumber } from "../../util";
 // @ts-ignore
-import { World } from "@antv/g-webgpu";
+import { World } from "@tunchz/xflow/g-webgpu";
 // compile at runtime in dev mode
 import { buildTextureData, attributesToTextureData } from "../../util/gpu";
 // use compiled bundle in prod mode

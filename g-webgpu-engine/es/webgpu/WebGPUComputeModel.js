@@ -3,7 +3,7 @@ import _toConsumableArray from "@babel/runtime/helpers/toConsumableArray";
 import _asyncToGenerator from "@babel/runtime/helpers/asyncToGenerator";
 import _classCallCheck from "@babel/runtime/helpers/classCallCheck";
 import _createClass from "@babel/runtime/helpers/createClass";
-import { AST_TOKEN_TYPES, createEntity, isSafari, STORAGE_CLASS } from '@antv/g-webgpu-core';
+import { AST_TOKEN_TYPES, createEntity, isSafari, STORAGE_CLASS } from '@tunchz/xflow/g-webgpu-core';
 import * as WebGPUConstants from '@webgpu/types/dist/constants';
 import { isNumber } from '../utils/is-number';
 import WebGPUBuffer from './WebGPUBuffer';

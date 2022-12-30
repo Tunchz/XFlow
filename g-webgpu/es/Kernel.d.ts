@@ -1,4 +1,4 @@
-import { KernelBundle } from '@antv/g-webgpu-core';
+import { KernelBundle } from '@tunchz/xflow/g-webgpu-core';
 export declare class Kernel {
     private readonly engine;
     private readonly configService;

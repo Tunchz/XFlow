@@ -60,7 +60,7 @@ exports.GForceGPULayout = void 0;
 var base_1 = require("../base");
 var util_1 = require("../../util");
 // @ts-ignore
-var g_webgpu_1 = require("@antv/g-webgpu");
+var g_webgpu_1 = require("@tunchz/xflow/g-webgpu");
 var gpu_1 = require("../../util/gpu");
 var math_1 = require("../../util/math");
 var gForceShader_1 = require("./gForceShader");

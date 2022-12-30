@@ -2,7 +2,7 @@ import _defineProperty from "@babel/runtime/helpers/defineProperty";
 
 var _primitiveMap, _depthFuncMap, _blendEquationMap, _blendFuncMap, _formatMap, _filterMap, _wrapModeMap;
 
-import { gl } from '@antv/g-webgpu-core';
+import { gl } from '@tunchz/xflow/g-webgpu-core';
 import * as WebGPUConstants from '@webgpu/types/dist/constants'; // WebGPU 不支持 LINE_LOOP & TRIANGLE_FAN
 
 export var primitiveMap = (_primitiveMap = {}, _defineProperty(_primitiveMap, gl.POINTS, WebGPUConstants.PrimitiveTopology.PointList), _defineProperty(_primitiveMap, gl.LINES, WebGPUConstants.PrimitiveTopology.LineList), _defineProperty(_primitiveMap, gl.LINE_LOOP, WebGPUConstants.PrimitiveTopology.LineList), _defineProperty(_primitiveMap, gl.LINE_STRIP, WebGPUConstants.PrimitiveTopology.LineStrip), _defineProperty(_primitiveMap, gl.TRIANGLES, WebGPUConstants.PrimitiveTopology.TriangleList), _defineProperty(_primitiveMap, gl.TRIANGLE_FAN, WebGPUConstants.PrimitiveTopology.TriangleList), _defineProperty(_primitiveMap, gl.TRIANGLE_STRIP, WebGPUConstants.PrimitiveTopology.TriangleStrip), _primitiveMap);

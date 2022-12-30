@@ -1,4 +1,4 @@
-import { Frustum, ICamera, IInteractorService } from '@antv/g-webgpu-core';
+import { Frustum, ICamera, IInteractorService } from '@tunchz/xflow/g-webgpu-core';
 import { mat4, vec3 } from 'gl-matrix';
 import Landmark from './Landmark';
 export declare enum CAMERA_TYPE {

@@ -1,4 +1,4 @@
-import { IClearOptions, IView } from '@antv/g-webgpu-core';
+import { IClearOptions, IView } from '@tunchz/xflow/g-webgpu-core';
 import { Container } from 'inversify';
 export declare class Renderer {
     container: Container;

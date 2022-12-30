@@ -25,7 +25,7 @@ var _applyDecoratedDescriptor2 = _interopRequireDefault(require("@babel/runtime/
 
 var _initializerWarningHelper2 = _interopRequireDefault(require("@babel/runtime/helpers/initializerWarningHelper"));
 
-var _gWebgpuCore = require("@antv/g-webgpu-core");
+var _gWebgpuCore = require("@tunchz/xflow/g-webgpu-core");
 
 var _glMatrix = require("gl-matrix");
 

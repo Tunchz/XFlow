@@ -1,4 +1,4 @@
-import { IRenderbuffer, IRenderbufferInitializationOptions } from '@antv/g-webgpu-core';
+import { IRenderbuffer, IRenderbufferInitializationOptions } from '@tunchz/xflow/g-webgpu-core';
 import regl from 'regl';
 /**
  * adaptor for regl.Renderbuffer

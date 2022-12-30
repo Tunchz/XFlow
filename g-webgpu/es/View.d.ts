@@ -1,4 +1,4 @@
-import { ICamera, IScene, IView, IViewport } from '@antv/g-webgpu-core';
+import { ICamera, IScene, IView, IViewport } from '@tunchz/xflow/g-webgpu-core';
 export declare class View implements IView {
     private readonly rendererSystem;
     private camera;

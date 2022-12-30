@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var x6_1 = require("@antv/x6");
+var x6_1 = require("@tunchz/xflow/x6");
 var registry_1 = require("./registry");
 x6_1.Graph.Hook.prototype.getReactComponent = function (node) {
     var getReactComponent = this.options.getReactComponent;

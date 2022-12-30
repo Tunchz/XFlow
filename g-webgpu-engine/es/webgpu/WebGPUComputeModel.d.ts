@@ -1,4 +1,4 @@
-import { GLSLContext, IComputeModel } from '@antv/g-webgpu-core';
+import { GLSLContext, IComputeModel } from '@tunchz/xflow/g-webgpu-core';
 import { WebGPUEngine } from '.';
 export default class WebGPUComputeModel implements IComputeModel {
     private engine;

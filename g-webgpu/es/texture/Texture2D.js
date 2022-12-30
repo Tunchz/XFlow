@@ -13,7 +13,7 @@ function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (O
 
 function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
 
-import { IDENTIFIER } from '@antv/g-webgpu-core';
+import { IDENTIFIER } from '@tunchz/xflow/g-webgpu-core';
 import { inject, injectable } from 'inversify';
 import { TextureCache } from './Cache';
 export var Texture2D = (_dec = injectable(), _dec2 = inject(TextureCache), _dec3 = inject(IDENTIFIER.RenderEngine), _dec(_class = (_class2 = (_temp = /*#__PURE__*/function () {

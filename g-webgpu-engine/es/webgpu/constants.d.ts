@@ -1,5 +1,5 @@
 /// <reference types="@webgpu/types" />
-import { IModelInitializationOptions } from '@antv/g-webgpu-core';
+import { IModelInitializationOptions } from '@tunchz/xflow/g-webgpu-core';
 import * as WebGPUConstants from '@webgpu/types/dist/constants';
 export declare const primitiveMap: {
     [key: string]: WebGPUConstants.PrimitiveTopology.PointList | WebGPUConstants.PrimitiveTopology.LineList | WebGPUConstants.PrimitiveTopology.LineStrip | WebGPUConstants.PrimitiveTopology.TriangleList | WebGPUConstants.PrimitiveTopology.TriangleStrip;

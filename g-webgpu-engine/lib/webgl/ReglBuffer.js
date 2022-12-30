@@ -11,7 +11,7 @@ var _classCallCheck2 = _interopRequireDefault(require("@babel/runtime/helpers/cl
 
 var _createClass2 = _interopRequireDefault(require("@babel/runtime/helpers/createClass"));
 
-var _gWebgpuCore = require("@antv/g-webgpu-core");
+var _gWebgpuCore = require("@tunchz/xflow/g-webgpu-core");
 
 var _constants = require("./constants");
 

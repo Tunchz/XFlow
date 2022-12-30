@@ -6,7 +6,7 @@ import _initializerWarningHelper from "@babel/runtime/helpers/initializerWarning
 
 var _dec, _dec2, _class, _class2, _descriptor, _class3, _temp;
 
-import { Frustum, IDENTIFIER } from '@antv/g-webgpu-core';
+import { Frustum, IDENTIFIER } from '@tunchz/xflow/g-webgpu-core';
 import { mat3, mat4, quat, vec3, vec4 } from 'gl-matrix';
 import { inject, injectable } from 'inversify';
 import { createVec3, getAngle } from '../utils/math';

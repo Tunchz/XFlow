@@ -21,7 +21,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.ReactShapeView = void 0;
 var react_1 = __importDefault(require("react"));
 var react_dom_1 = __importDefault(require("react-dom"));
-var x6_1 = require("@antv/x6");
+var x6_1 = require("@tunchz/xflow/x6");
 var portal_1 = require("./portal");
 var wrap_1 = require("./wrap");
 var ReactShapeView = /** @class */ (function (_super) {

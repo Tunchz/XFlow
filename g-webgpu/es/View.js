@@ -6,7 +6,7 @@ import _initializerWarningHelper from "@babel/runtime/helpers/initializerWarning
 
 var _dec, _dec2, _dec3, _class, _class2, _descriptor, _temp;
 
-import { IDENTIFIER } from '@antv/g-webgpu-core';
+import { IDENTIFIER } from '@tunchz/xflow/g-webgpu-core';
 import { inject, injectable, named } from 'inversify';
 export var View = (_dec = injectable(), _dec2 = inject(IDENTIFIER.Systems), _dec3 = named(IDENTIFIER.RendererSystem), _dec(_class = (_class2 = (_temp = /*#__PURE__*/function () {
   function View() {

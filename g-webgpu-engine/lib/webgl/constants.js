@@ -9,7 +9,7 @@ exports.cullFaceMap = exports.stencilOpMap = exports.stencilFuncMap = exports.bl
 
 var _defineProperty2 = _interopRequireDefault(require("@babel/runtime/helpers/defineProperty"));
 
-var _gWebgpuCore = require("@antv/g-webgpu-core");
+var _gWebgpuCore = require("@tunchz/xflow/g-webgpu-core");
 
 var _primitiveMap, _usageMap, _dataTypeMap, _formatMap, _mipmapMap, _filterMap, _wrapModeMap, _colorSpaceMap, _depthFuncMap, _blendEquationMap, _blendFuncMap, _stencilFuncMap, _stencilOpMap, _cullFaceMap;
 

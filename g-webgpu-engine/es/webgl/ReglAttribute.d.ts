@@ -1,4 +1,4 @@
-import { BufferData, IAttribute, IAttributeInitializationOptions } from '@antv/g-webgpu-core';
+import { BufferData, IAttribute, IAttributeInitializationOptions } from '@tunchz/xflow/g-webgpu-core';
 import regl from 'regl';
 /**
  * @see https://github.com/regl-project/regl/blob/gh-pages/API.md#attributes

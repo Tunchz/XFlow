@@ -6,7 +6,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 import React, { useState, useCallback, useLayoutEffect, useRef } from 'react';
 import ReactDOM from 'react-dom';
-import { NodeView } from '@antv/x6';
+import { NodeView } from '@tunchz/xflow/x6';
 import { Wrap } from '../wrap';
 const action = 'react';
 export function createPortal(uniqViewId) {

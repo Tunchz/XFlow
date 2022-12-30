@@ -15,8 +15,8 @@ function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { va
 
 // tslint:disable-next-line:no-reference
 /// <reference path="../../../node_modules/@webgpu/types/dist/index.d.ts" />
-import { createEntity as _createEntity, createWorldContainer, IDENTIFIER } from '@antv/g-webgpu-core';
-import { WebGLEngine, WebGPUEngine } from '@antv/g-webgpu-engine'; // tslint:disable-next-line:no-submodule-imports
+import { createEntity as _createEntity, createWorldContainer, IDENTIFIER } from '@tunchz/xflow/g-webgpu-core';
+import { WebGLEngine, WebGPUEngine } from '@tunchz/xflow/g-webgpu-engine'; // tslint:disable-next-line:no-submodule-imports
 
 import * as WebGPUConstants from '@webgpu/types/dist/constants';
 import { inject, injectable } from 'inversify';

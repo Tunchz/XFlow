@@ -1,4 +1,4 @@
-import { Entity, GeometryComponent } from '@antv/g-webgpu-core';
+import { Entity, GeometryComponent } from '@tunchz/xflow/g-webgpu-core';
 export interface IGeometry<T> {
     setConfig(config: T): void;
 }
