@@ -10,5 +10,8 @@
   },
   "repository": "https://github.com/tunchz/XFlow.git",
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "mana-syringe": "^0.3.2"
+  }
 }
