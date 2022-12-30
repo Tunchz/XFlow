@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "@antv/xflow",
+  "name": "@tunchz/xflow",
   "version": "1.0.0",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
