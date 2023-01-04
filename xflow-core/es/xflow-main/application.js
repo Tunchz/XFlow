@@ -103,7 +103,7 @@ let FrontendApplication = class FrontendApplication {
      */
     startContributions() {
         return __awaiter(this, void 0, void 0, function* () {
-            console.log(this.contributions.getContributions());
+            // console.log(this.contributions.getContributions());
             for (const contribution of this.contributions.getContributions()) {
                 if (contribution.onStart) {
                     try {

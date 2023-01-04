@@ -20,7 +20,7 @@ import { HookRegistry } from '../../hooks';
 import { ToolbarRegistry } from '../../toolbar';
 import { MenuRegistry } from '../../menu';
 export const XFlow = props => {
-    const { meta, graphConfig, graphData, graphLayout, onLoad, isAutoCenter, hookConfig, modelServiceConfig, commandConfig, onAppConfigReady, onAppDestroy, children = [], className, style, } = props;
+    const { meta, graphConfig, graphData, graphLayout, onLoad,  afterLoad, isAutoCenter, hookConfig, modelServiceConfig, commandConfig, onAppConfigReady, onAppDestroy, children = [], className, style, } = props;
     const [appRef, setAppRef] = React.useState();
     /** 所有组件父容器 */
     const appContainerRef = React.useRef(null);
@@ -53,6 +53,9 @@ export const XFlow = props => {
                 }
                 yield app.commandService.executeCommand(XFlowGraphCommands.GRAPH_RENDER.id, { graphData });
             }
+            if (afterLoad) {
+                afterLoad(app, extensionRegistry);
+            }
         }));
         /** unmount */
         const destroy = () => __awaiter(void 0, void 0, void 0, function* () {
@@ -84,6 +87,7 @@ export const XFlow = props => {
                 });
                 /** 自动居中画布内容 */
                 if (isAutoCenter) {
+                    console.log("--- set auto center")
                     const x6Graph = yield appRef.getGraphInstance();
                     x6Graph.centerContent();
                 }
